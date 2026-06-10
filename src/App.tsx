@@ -50,7 +50,7 @@ function App() {
       </div>
       <GameHeader elapsed={game.elapsed} streak={game.stats.currentStreak} onStats={() => setShowStats(true)} />
       <section className="title-block">
-        <h1>{puzzle.title}<span className="title-mark" aria-hidden="true" /></h1>
+        <h1>{puzzle.title}</h1>
         <p><span className="date-mark" aria-hidden="true" />{formatPuzzleDate(puzzle.date)}</p>
       </section>
       {isArchive && <p className="archive-banner">No puzzle is available for today, so you are playing the latest archive puzzle.</p>}

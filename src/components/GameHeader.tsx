@@ -10,7 +10,6 @@ export function GameHeader({ elapsed, streak, onStats }: Props) {
   return (
     <header className="game-header">
       <div className="brand-cluster">
-        <div className="brand-mark" aria-hidden="true" />
         <div className="brand-copy">
           <strong>CROSSED</strong>
           <span>BASKETBALL CROSSWORD</span>

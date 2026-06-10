@@ -18,7 +18,6 @@ export function OnScreenKeyboard({ onLetter, onBackspace }: Props) {
         </div>
       ))}
       <div className="keyboard-row bottom-row">
-        <button type="button" className="ball-key" aria-hidden="true" tabIndex={-1} />
         {"ZXCVBNM".split("").map((letter) => (
           <button type="button" key={letter} onClick={() => onLetter(letter)} aria-label={`Enter ${letter}`}>
             {letter}
