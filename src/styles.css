@@ -95,7 +95,7 @@ p {
   position: relative;
   width: min(1360px, 100%);
   margin: 0 auto;
-  padding: 22px clamp(16px, 3.2vw, 46px) 34px;
+  padding: max(22px, env(safe-area-inset-top)) clamp(16px, 3.2vw, 46px) max(34px, env(safe-area-inset-bottom));
 }
 
 .background-dots {
@@ -450,7 +450,7 @@ p {
   background: #fffef9;
   color: var(--text);
   font-size: var(--cell-font-size);
-  font-weight: 800;
+  font-weight: 760;
   line-height: 1;
   text-transform: uppercase;
   touch-action: manipulation;
@@ -477,17 +477,19 @@ p {
   left: 7px;
   color: var(--accent-dark);
   font-size: var(--cell-number-size);
-  font-weight: 700;
+  font-weight: 680;
   line-height: 1;
   pointer-events: none;
 }
 
 .cell-letter {
   display: block;
+  width: 100%;
   max-width: 86%;
   max-height: 86%;
   overflow: hidden;
   line-height: 0.92;
+  text-align: center;
   transform: translateY(1px);
   pointer-events: none;
 }
@@ -972,7 +974,7 @@ p {
 
 @media (max-width: 680px) {
   .app-shell {
-    padding-inline: 12px;
+    padding: calc(max(18px, env(safe-area-inset-top)) + 8px) 12px max(28px, env(safe-area-inset-bottom));
   }
 
   .game-header,
@@ -1001,8 +1003,8 @@ p {
   }
 
   .title-block h1 {
-    font-size: clamp(2.8rem, 14vw, 4.2rem);
-    line-height: 0.96;
+    font-size: clamp(2.25rem, 11vw, 3.35rem);
+    line-height: 1;
   }
 }
 
@@ -1035,11 +1037,11 @@ p {
   }
 
   .title-block {
-    padding: 28px 2px 18px;
+    padding: 18px 2px 16px;
   }
 
   .title-block h1 {
-    margin-bottom: 12px;
+    margin-bottom: 10px;
   }
 
   .title-block p {

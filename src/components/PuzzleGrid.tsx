@@ -18,14 +18,15 @@ export function PuzzleGrid({ puzzle, entries, selected, activeCells, revealed, i
     clueNumbers.set(`${clue.row}-${clue.col}`, clue.number);
   });
   const largestDimension = Math.max(puzzle.size.rows, puzzle.size.cols);
-  const cellFontMax = Math.min(5.1, Math.max(1.05, 21 / largestDimension));
-  const cellFontPreferred = Math.min(9, Math.max(1.55, 54 / largestDimension));
-  const numberFontMax = Math.min(0.95, Math.max(0.46, 7.2 / largestDimension));
+  const cellFontMax = Math.min(1.05, Math.max(0.64, 14 / largestDimension));
+  const cellFontPreferred = Math.min(2.2, Math.max(1.15, 28 / largestDimension));
+  const numberFontMax = Math.min(0.75, Math.max(0.34, 6.8 / largestDimension));
+  const numberFontPreferred = Math.min(0.9, Math.max(0.48, 12 / largestDimension));
   const gridStyle = {
     gridTemplateColumns: `repeat(${puzzle.size.cols}, minmax(0, 1fr))`,
     gridTemplateRows: `repeat(${puzzle.size.rows}, minmax(0, 1fr))`,
-    "--cell-font-size": `clamp(0.72rem, ${cellFontPreferred.toFixed(2)}vw, ${cellFontMax.toFixed(2)}rem)`,
-    "--cell-number-size": `clamp(0.42rem, ${(cellFontPreferred * 0.42).toFixed(2)}vw, ${numberFontMax.toFixed(2)}rem)`,
+    "--cell-font-size": `clamp(0.54rem, ${cellFontPreferred.toFixed(2)}vmin, ${cellFontMax.toFixed(2)}rem)`,
+    "--cell-number-size": `clamp(0.28rem, ${numberFontPreferred.toFixed(2)}vmin, ${numberFontMax.toFixed(2)}rem)`,
   } as CSSProperties;
 
   return (
