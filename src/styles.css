@@ -365,7 +365,7 @@ p {
   border-radius: 0;
   background: #fffef9;
   color: var(--text);
-  font-size: clamp(1.9rem, 9vw, 5.1rem);
+  font-size: var(--cell-font-size);
   font-weight: 800;
   line-height: 1;
   text-transform: uppercase;
@@ -389,7 +389,7 @@ p {
   top: 6px;
   left: 7px;
   color: var(--accent-dark);
-  font-size: clamp(0.64rem, 1.4vw, 0.95rem);
+  font-size: var(--cell-number-size);
   font-weight: 700;
   line-height: 1;
 }
