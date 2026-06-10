@@ -22,12 +22,21 @@ function App() {
   const [selectedDate, setSelectedDate] = useState(today);
   const [showStats, setShowStats] = useState(false);
   const [showComplete, setShowComplete] = useState(true);
+  const [expandedImage, setExpandedImage] = useState<{ src: string; alt: string; credit?: string } | null>(null);
   const puzzle = useMemo(() => getPuzzleForDate(selectedDate) ?? getMostRecentPuzzle(selectedDate), [selectedDate]);
   const game = useCrosswordGame(puzzle ?? puzzles[0]);
 
   useEffect(() => {
     setShowComplete(true);
   }, [puzzle?.date]);
+
+  useEffect(() => {
+    function closeOnEscape(event: KeyboardEvent) {
+      if (event.key === "Escape") setExpandedImage(null);
+    }
+    window.addEventListener("keydown", closeOnEscape);
+    return () => window.removeEventListener("keydown", closeOnEscape);
+  }, []);
 
   if (!puzzle) {
     return (
@@ -40,6 +49,7 @@ function App() {
   }
 
   const isArchive = puzzle.date !== today;
+  const activeClue = game.activeClue;
 
   return (
     <main className="app-shell">
@@ -56,14 +66,27 @@ function App() {
       {isArchive && <p className="archive-banner">No puzzle is available for today, so you are playing the latest archive puzzle.</p>}
       <section className="game-board">
         <div className="play-area">
-          {game.activeClue && (
+          {activeClue && (
             <section className="active-clue-panel" aria-live="polite" aria-label="Selected clue">
               <span className="active-clue-meta">
-                {game.direction} {game.activeClue.number}
+                {game.direction} {activeClue.number}
               </span>
-              <p>{game.activeClue.prompt.text}</p>
-              {game.activeClue.prompt.imageSrc && (
-                <img src={game.activeClue.prompt.imageSrc} alt={game.activeClue.prompt.imageAlt} loading="lazy" />
+              <p>{activeClue.prompt.text}</p>
+              {activeClue.prompt.imageSrc && (
+                <button
+                  type="button"
+                  className="active-clue-image-button"
+                  onClick={() =>
+                    setExpandedImage({
+                      src: activeClue.prompt.imageSrc!,
+                      alt: activeClue.prompt.imageAlt ?? "",
+                      credit: activeClue.prompt.imageCredit,
+                    })
+                  }
+                  aria-label="Expand selected clue image"
+                >
+                  <img src={activeClue.prompt.imageSrc} alt={activeClue.prompt.imageAlt} loading="lazy" />
+                </button>
               )}
             </section>
           )}
@@ -87,11 +110,34 @@ function App() {
           <OnScreenKeyboard onLetter={game.enterLetter} onBackspace={game.backspace} />
         </div>
         <aside className="side-panel">
-          <ClueList puzzle={puzzle} activeClue={game.activeClue} direction={game.direction} onSelect={game.selectClue} />
+          <ClueList
+            puzzle={puzzle}
+            activeClue={game.activeClue}
+            direction={game.direction}
+            onSelect={game.selectClue}
+            onImageOpen={setExpandedImage}
+          />
           <ArchiveList puzzles={puzzles} activeDate={puzzle.date} onSelect={setSelectedDate} />
         </aside>
       </section>
       <PrivacyNote />
+      {expandedImage && (
+        <div className="image-lightbox-backdrop" role="presentation" onClick={() => setExpandedImage(null)}>
+          <section
+            className="image-lightbox"
+            role="dialog"
+            aria-modal="true"
+            aria-label="Expanded clue image"
+            onClick={(event) => event.stopPropagation()}
+          >
+            <button type="button" className="image-lightbox-close" onClick={() => setExpandedImage(null)}>
+              Close
+            </button>
+            <img src={expandedImage.src} alt={expandedImage.alt} />
+            {expandedImage.credit && <p>{expandedImage.credit}</p>}
+          </section>
+        </div>
+      )}
       {showStats && <StatsModal stats={game.stats} onClose={() => setShowStats(false)} />}
       {game.complete && showComplete && (
         <CompletionModal
