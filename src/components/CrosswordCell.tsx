@@ -1,6 +1,7 @@
 type Props = {
   value: string | null;
   solution: string | null;
+  number?: number;
   row: number;
   col: number;
   selected: boolean;
@@ -10,7 +11,7 @@ type Props = {
   onSelect: () => void;
 };
 
-export function CrosswordCell({ value, solution, row, col, selected, active, revealed, incorrect, onSelect }: Props) {
+export function CrosswordCell({ value, solution, number, row, col, selected, active, revealed, incorrect, onSelect }: Props) {
   if (solution === null) {
     return <div className="cell blocked" aria-hidden="true" />;
   }
@@ -24,7 +25,8 @@ export function CrosswordCell({ value, solution, row, col, selected, active, rev
       onClick={onSelect}
       aria-label={`Row ${row + 1}, column ${col + 1}, ${value || "blank"}`}
     >
-      {value}
+      {number && <span className="cell-number">{number}</span>}
+      <span className="cell-letter">{value}</span>
     </button>
   );
 }

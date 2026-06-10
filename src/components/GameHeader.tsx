@@ -1,26 +1,31 @@
 import { formatTime } from "../utils/date";
 
 type Props = {
-  title: string;
-  date: string;
   elapsed: number;
+  streak: number;
   onStats: () => void;
 };
 
-export function GameHeader({ title, date, elapsed, onStats }: Props) {
+export function GameHeader({ elapsed, streak, onStats }: Props) {
   return (
     <header className="game-header">
-      <div>
-        <p className="eyebrow">Crossed basketball crossword</p>
-        <h1>{title}</h1>
-        <span>{date}</span>
+      <div className="brand-cluster">
+        <div className="brand-mark" aria-hidden="true">🏀</div>
+        <div className="brand-copy">
+          <strong>CROSSED</strong>
+          <span>BASKETBALL CROSSWORD</span>
+        </div>
+        <span className="header-divider" aria-hidden="true" />
+        <span className="streak-pill" aria-label={`${streak} day streak`}>
+          🔥 {streak} DAY STREAK
+        </span>
       </div>
       <div className="header-actions">
         <span className="timer" aria-label={`Timer ${formatTime(elapsed)}`}>
-          {formatTime(elapsed)}
+          <span aria-hidden="true">⏱</span> {formatTime(elapsed)}
         </span>
-        <button type="button" onClick={onStats}>
-          Stats
+        <button type="button" className="stats-pill" onClick={onStats}>
+          <span aria-hidden="true">▦</span> Stats
         </button>
       </div>
     </header>

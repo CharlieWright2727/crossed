@@ -12,6 +12,11 @@ type Props = {
 };
 
 export function PuzzleGrid({ puzzle, entries, selected, activeCells, revealed, incorrect, onSelect }: Props) {
+  const clueNumbers = new Map<string, number>();
+  [...puzzle.clues.across, ...puzzle.clues.down].forEach((clue) => {
+    clueNumbers.set(`${clue.row}-${clue.col}`, clue.number);
+  });
+
   return (
     <div
       className="puzzle-grid"
@@ -26,6 +31,7 @@ export function PuzzleGrid({ puzzle, entries, selected, activeCells, revealed, i
               key={key}
               row={rowIndex}
               col={colIndex}
+              number={clueNumbers.get(key)}
               value={entries[rowIndex][colIndex]}
               solution={solution}
               selected={selected.row === rowIndex && selected.col === colIndex}

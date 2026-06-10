@@ -9,6 +9,14 @@ type Props = {
 export function ArchiveList({ puzzles, activeDate, onSelect }: Props) {
   return (
     <section className="archive">
+      <div className="daily-tip">
+        <span aria-hidden="true">🏟</span>
+        <div>
+          <strong>Daily tip-off. New puzzle every day.</strong>
+          <p>Come back tomorrow to keep your streak alive.</p>
+        </div>
+        <button type="button" aria-label="Open archive dates">📅</button>
+      </div>
       <h2>Archive</h2>
       <div>
         {puzzles.map((puzzle) => (
