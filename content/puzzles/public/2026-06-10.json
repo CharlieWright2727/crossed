@@ -1,42 +1,23 @@
 {
   "id": "2026-06-10",
   "date": "2026-06-10",
-  "title": "Frame Study",
+  "title": "Front Office Film",
   "author": "Crossed",
   "difficulty": "hard",
   "size": {
-    "rows": 19,
-    "cols": 19
+    "rows": 21,
+    "cols": 21
   },
   "layout": [
     [
       "#",
       "#",
       "#",
-      "#",
-      "#",
-      "#",
-      "#",
-      "#",
-      "#",
-      "#",
-      "#",
-      "#",
-      "#",
-      "#",
-      "#",
-      "#",
-      "#",
-      "#",
-      "#"
-    ],
-    [
-      "#",
-      "#",
-      "#",
-      "#",
-      "#",
-      "#",
+      ".",
+      ".",
+      ".",
+      ".",
+      ".",
       "#",
       "#",
       "#",
@@ -58,15 +39,17 @@
       "#",
       "#",
       "#",
-      ".",
-      ".",
-      ".",
-      "#",
       "#",
       ".",
       "#",
-      ".",
-      ".",
+      "#",
+      "#",
+      "#",
+      "#",
+      "#",
+      "#",
+      "#",
+      "#",
       ".",
       ".",
       ".",
@@ -79,18 +62,181 @@
       "#",
       "#",
       "#",
-      ".",
-      "#",
-      "#",
-      "#",
-      "#",
-      ".",
       "#",
       ".",
       "#",
       "#",
       "#",
+      ".",
+      ".",
+      ".",
+      ".",
+      ".",
+      ".",
       "#",
+      "#",
+      ".",
+      "#"
+    ],
+    [
+      "#",
+      "#",
+      "#",
+      ".",
+      ".",
+      ".",
+      ".",
+      ".",
+      "#",
+      "#",
+      "#",
+      ".",
+      "#",
+      "#",
+      "#",
+      "#",
+      "#",
+      "#",
+      "#",
+      ".",
+      "#"
+    ],
+    [
+      "#",
+      "#",
+      "#",
+      ".",
+      "#",
+      "#",
+      "#",
+      ".",
+      "#",
+      "#",
+      ".",
+      ".",
+      ".",
+      ".",
+      ".",
+      ".",
+      ".",
+      ".",
+      ".",
+      ".",
+      "#"
+    ],
+    [
+      "#",
+      ".",
+      "#",
+      ".",
+      "#",
+      "#",
+      "#",
+      ".",
+      "#",
+      "#",
+      "#",
+      ".",
+      "#",
+      "#",
+      "#",
+      "#",
+      "#",
+      "#",
+      "#",
+      ".",
+      "#"
+    ],
+    [
+      "#",
+      ".",
+      "#",
+      ".",
+      "#",
+      "#",
+      "#",
+      ".",
+      ".",
+      ".",
+      ".",
+      ".",
+      ".",
+      ".",
+      "#",
+      "#",
+      "#",
+      ".",
+      "#",
+      "#",
+      "#"
+    ],
+    [
+      "#",
+      ".",
+      ".",
+      ".",
+      ".",
+      ".",
+      "#",
+      "#",
+      "#",
+      "#",
+      "#",
+      ".",
+      "#",
+      "#",
+      "#",
+      "#",
+      "#",
+      ".",
+      ".",
+      ".",
+      "."
+    ],
+    [
+      "#",
+      ".",
+      "#",
+      "#",
+      "#",
+      "#",
+      "#",
+      "#",
+      "#",
+      "#",
+      ".",
+      ".",
+      ".",
+      ".",
+      ".",
+      ".",
+      ".",
+      ".",
+      "#",
+      "#",
+      "#"
+    ],
+    [
+      "#",
+      ".",
+      "#",
+      "#",
+      "#",
+      "#",
+      "#",
+      ".",
+      "#",
+      "#",
+      "#",
+      ".",
+      "#",
+      "#",
+      "#",
+      "#",
+      "#",
+      ".",
+      ".",
+      ".",
       "#"
     ],
     [
@@ -104,10 +250,81 @@
       ".",
       ".",
       ".",
+      ".",
+      ".",
+      ".",
+      ".",
+      ".",
+      ".",
+      "#",
+      ".",
+      "#",
+      "#",
+      "#"
+    ],
+    [
+      "#",
+      "#",
+      "#",
+      "#",
+      ".",
+      "#",
+      "#",
+      ".",
+      "#",
+      "#",
+      "#",
+      ".",
+      "#",
+      "#",
+      "#",
+      "#",
+      "#",
+      ".",
+      "#",
+      "#",
+      "#"
+    ],
+    [
+      "#",
+      "#",
+      "#",
+      "#",
+      ".",
+      "#",
       "#",
       ".",
       "#",
       ".",
+      ".",
+      ".",
+      ".",
+      ".",
+      ".",
+      "#",
+      "#",
+      ".",
+      "#",
+      "#",
+      "#"
+    ],
+    [
+      "#",
+      "#",
+      "#",
+      ".",
+      ".",
+      ".",
+      ".",
+      ".",
+      ".",
+      "#",
+      "#",
+      "#",
+      ".",
+      "#",
+      "#",
+      "#",
       "#",
       "#",
       "#",
@@ -121,262 +338,12 @@
       "#",
       "#",
       "#",
-      ".",
-      "#",
-      "#",
-      ".",
-      "#",
-      ".",
-      "#",
-      ".",
-      ".",
-      ".",
-      "#",
-      "#",
-      "#"
-    ],
-    [
-      ".",
-      ".",
-      ".",
-      "#",
-      "#",
-      "#",
-      "#",
-      ".",
-      ".",
-      ".",
-      ".",
-      ".",
-      ".",
-      ".",
-      "#",
-      "#",
-      "#",
-      "#",
-      "#"
-    ],
-    [
-      "#",
-      "#",
-      ".",
-      "#",
-      ".",
-      "#",
-      "#",
-      "#",
-      "#",
-      ".",
-      "#",
-      ".",
-      "#",
-      ".",
-      ".",
-      ".",
-      ".",
-      ".",
-      "#"
-    ],
-    [
-      ".",
-      ".",
-      ".",
-      ".",
-      ".",
-      "#",
-      "#",
-      "#",
-      "#",
-      ".",
-      "#",
-      ".",
-      "#",
-      "#",
-      "#",
-      "#",
-      ".",
-      "#",
-      "#"
-    ],
-    [
-      "#",
-      "#",
-      ".",
-      "#",
-      ".",
-      ".",
-      ".",
-      ".",
-      ".",
-      ".",
-      ".",
-      ".",
-      ".",
-      ".",
-      "#",
-      ".",
-      ".",
-      ".",
-      "#"
-    ],
-    [
-      "#",
-      "#",
-      "#",
-      "#",
-      ".",
-      "#",
-      "#",
-      "#",
-      "#",
-      ".",
-      "#",
-      "#",
-      "#",
-      "#",
-      ".",
-      "#",
-      ".",
-      "#",
-      "#"
-    ],
-    [
-      "#",
-      ".",
-      ".",
-      ".",
-      ".",
       "#",
-      "#",
-      ".",
-      "#",
-      ".",
-      "#",
-      ".",
-      "#",
-      "#",
-      ".",
-      "#",
-      "#",
-      "#",
-      "#"
-    ],
-    [
-      "#",
-      "#",
-      "#",
-      ".",
-      "#",
-      ".",
-      ".",
-      ".",
-      ".",
-      ".",
-      ".",
-      ".",
-      ".",
-      ".",
-      ".",
-      "#",
-      "#",
-      "#",
-      "#"
-    ],
-    [
-      "#",
-      "#",
-      "#",
-      ".",
-      "#",
-      ".",
-      "#",
-      ".",
-      "#",
-      ".",
-      "#",
-      ".",
-      "#",
-      "#",
-      ".",
-      "#",
-      "#",
-      "#",
-      "#"
-    ],
-    [
-      "#",
-      "#",
-      "#",
-      ".",
-      "#",
       ".",
       "#",
-      ".",
-      "#",
-      ".",
-      "#",
-      ".",
-      "#",
-      "#",
-      ".",
-      ".",
-      ".",
-      ".",
-      "#"
-    ],
-    [
-      "#",
-      "#",
-      "#",
-      "#",
-      "#",
-      ".",
-      "#",
-      ".",
-      "#",
-      "#",
-      "#",
-      ".",
-      "#",
-      "#",
-      ".",
-      "#",
       "#",
       "#",
-      "#"
-    ],
-    [
       "#",
-      "#",
-      "#",
-      "#",
-      "#",
-      ".",
-      "#",
-      "#",
-      "#",
-      "#",
-      "#",
-      ".",
-      "#",
-      "#",
-      ".",
-      "#",
-      "#",
-      "#",
-      "#"
-    ],
-    [
-      "#",
-      ".",
-      ".",
-      ".",
-      ".",
-      ".",
-      ".",
-      "#",
-      "#",
-      ".",
       ".",
       ".",
       ".",
@@ -394,6 +361,123 @@
       "#",
       "#",
       ".",
+      ".",
+      ".",
+      ".",
+      ".",
+      ".",
+      "#",
+      ".",
+      "#",
+      "#",
+      "#",
+      "#",
+      "#",
+      "#",
+      "#",
+      "#"
+    ],
+    [
+      "#",
+      "#",
+      "#",
+      "#",
+      "#",
+      "#",
+      "#",
+      ".",
+      "#",
+      ".",
+      "#",
+      "#",
+      "#",
+      "#",
+      "#",
+      "#",
+      "#",
+      "#",
+      "#",
+      "#",
+      "#"
+    ],
+    [
+      "#",
+      "#",
+      "#",
+      "#",
+      "#",
+      "#",
+      "#",
+      "#",
+      ".",
+      ".",
+      ".",
+      ".",
+      "#",
+      "#",
+      "#",
+      "#",
+      "#",
+      "#",
+      "#",
+      "#",
+      "#"
+    ],
+    [
+      "#",
+      "#",
+      "#",
+      "#",
+      "#",
+      "#",
+      "#",
+      "#",
+      "#",
+      ".",
+      "#",
+      "#",
+      "#",
+      "#",
+      "#",
+      "#",
+      "#",
+      "#",
+      "#",
+      "#",
+      "#"
+    ],
+    [
+      "#",
+      "#",
+      "#",
+      "#",
+      "#",
+      "#",
+      "#",
+      "#",
+      ".",
+      ".",
+      ".",
+      ".",
+      ".",
+      "#",
+      "#",
+      "#",
+      "#",
+      "#",
+      "#",
+      "#",
+      "#"
+    ],
+    [
+      "#",
+      "#",
+      "#",
+      "#",
+      "#",
+      "#",
+      "#",
+      "#",
       "#",
       "#",
       "#",
@@ -414,59 +498,47 @@
       {
         "number": 1,
         "prompt": {
-          "text": "Describe the basketball action shown across these three frames. The ball handler hands off while the receiver turns the corner.",
-          "imageSrc": "/clue-images/2026-06-14-play-01.svg",
-          "imageAlt": "Three-frame half-court basketball action diagram",
-          "imageCredit": "Local diagram"
+          "text": "Serbian center whose passing has made the phrase 'point center' feel insufficient."
         },
-        "row": 2,
-        "col": 6
+        "row": 0,
+        "col": 3
       },
       {
         "number": 3,
         "prompt": {
-          "text": "Describe the basketball action shown across these three frames. Two players meet near the elbow area rather than starting from a spread corner.",
-          "imageSrc": "/clue-images/2026-06-14-play-02.svg",
-          "imageAlt": "Three-frame half-court basketball action diagram",
-          "imageCredit": "Local diagram"
+          "text": "Box Plus/Minus: useful public all-in-one stat, dangerous when treated as gospel."
         },
-        "row": 2,
-        "col": 13
+        "row": 1,
+        "col": 17
       },
       {
-        "number": 4,
+        "number": 5,
         "prompt": {
-          "text": "Describe the basketball action shown across these three frames. Both bigs begin high at the elbows with the ball up top.",
-          "imageSrc": "/clue-images/2026-06-14-play-03.svg",
-          "imageAlt": "Three-frame half-court basketball action diagram",
-          "imageCredit": "Local diagram"
+          "text": "Nikola Jokić's country."
         },
-        "row": 4,
-        "col": 5
+        "row": 2,
+        "col": 11
       },
       {
         "number": 6,
         "prompt": {
-          "text": "The roller's temporary weak-side escort before the defense peels back out."
+          "text": "Orlando's NBA team, or what a perfect late-clock set can feel like."
         },
-        "row": 5,
-        "col": 13
+        "row": 3,
+        "col": 3
       },
       {
         "number": 7,
         "prompt": {
-          "text": "Coverage call that keeps the ball on the sideline and out of the middle."
+          "text": "Celtics cult hero nicknamed the White Mamba."
         },
-        "row": 6,
-        "col": 0
+        "row": 4,
+        "col": 10
       },
       {
         "number": 9,
         "prompt": {
-          "text": "Describe the basketball action shown across these three frames. The sequence combines a pin-down with a handoff.",
-          "imageSrc": "/clue-images/2026-06-14-play-04.svg",
-          "imageAlt": "Three-frame half-court basketball action diagram",
-          "imageCredit": "Local diagram"
+          "text": "The city whose NBA history runs through Shaq, Penny, Dwight, lottery hope, and rebuilds."
         },
         "row": 6,
         "col": 7
@@ -474,199 +546,184 @@
       {
         "number": 11,
         "prompt": {
-          "text": "Player shown in the image: small guard, enormous charge-taking résumé, and a title with Toronto.",
-          "imageSrc": "/clue-images/2026-06-14-player-01.svg",
-          "imageAlt": "Illustrated placeholder portrait of a veteran basketball guard",
-          "imageCredit": "Local placeholder artwork"
+          "text": "Celtics guard shown in the image: elite connector, shot-blocking guard, and 2024 champion.",
+          "imageSrc": "/clue-images/2026-06-10-derrick-white.png",
+          "imageAlt": "Derrick White NBA headshot",
+          "imageCredit": "NBA image supplied by user"
         },
         "row": 7,
-        "col": 13
-      },
-      {
-        "number": 13,
-        "prompt": {
-          "text": "Describe the basketball action shown across these three frames. The off-ball screen sends the shooter drifting away from the ball.",
-          "imageSrc": "/clue-images/2026-06-14-play-05.svg",
-          "imageAlt": "Three-frame half-court basketball action diagram",
-          "imageCredit": "Local diagram"
-        },
-        "row": 8,
-        "col": 0
-      },
-      {
-        "number": 14,
-        "prompt": {
-          "text": "Describe the basketball action shown across these three frames. A transition ball handler uses two high screens in a row.",
-          "imageSrc": "/clue-images/2026-06-14-play-06.svg",
-          "imageAlt": "Three-frame half-court basketball action diagram",
-          "imageCredit": "Local diagram"
-        },
-        "row": 9,
-        "col": 4
-      },
-      {
-        "number": 15,
-        "prompt": {
-          "text": "Box Plus/Minus: a public all-in-one stat whose certainty should not be overrated."
-        },
-        "row": 9,
-        "col": 15
-      },
-      {
-        "number": 17,
-        "prompt": {
-          "text": "Who said, after going up 2-0 in the 2009 Finals, that the job was not finished?"
-        },
-        "row": 11,
         "col": 1
-      },
-      {
-        "number": 21,
-        "prompt": {
-          "text": "Celtics cult hero nicknamed the White Mamba."
-        },
-        "row": 12,
-        "col": 5
-      },
-      {
-        "number": 22,
-        "prompt": {
-          "text": "Describe the basketball action shown across these three frames. The screener leaves before real contact, punishing an overplay.",
-          "imageSrc": "/clue-images/2026-06-14-play-07.svg",
-          "imageAlt": "Three-frame half-court basketball action diagram",
-          "imageCredit": "Local diagram"
-        },
-        "row": 14,
-        "col": 14
-      },
-      {
-        "number": 23,
-        "prompt": {
-          "text": "Describe the basketball action shown across these three frames. A baseline drive triggers a weak-side back screen for a corner shooter.",
-          "imageSrc": "/clue-images/2026-06-14-play-08.svg",
-          "imageAlt": "Three-frame half-court basketball action diagram",
-          "imageCredit": "Local diagram"
-        },
-        "row": 17,
-        "col": 1
-      },
-      {
-        "number": 24,
-        "prompt": {
-          "text": "Describe the basketball action shown across these three frames. The would-be screener fakes the screen, then pops or slips into space.",
-          "imageSrc": "/clue-images/2026-06-14-play-09.svg",
-          "imageAlt": "Three-frame half-court basketball action diagram",
-          "imageCredit": "Local diagram"
-        },
-        "row": 17,
-        "col": 9
-      }
-    ],
-    "down": [
-      {
-        "number": 1,
-        "prompt": {
-          "text": "Conservative ball-screen coverage: protect the rim first, solve the pull-up later."
-        },
-        "row": 2,
-        "col": 6
-      },
-      {
-        "number": 2,
-        "prompt": {
-          "text": "Describe the basketball action shown across these three frames. Two screeners close like doors after the shooter runs between them.",
-          "imageSrc": "/clue-images/2026-06-14-play-10.svg",
-          "imageAlt": "Three-frame half-court basketball action diagram",
-          "imageCredit": "Local diagram"
-        },
-        "row": 2,
-        "col": 11
-      },
-      {
-        "number": 3,
-        "prompt": {
-          "text": "Describe the basketball action shown across these three frames. Early-offense side action often starting with an advance pass and handoff/screen threat.",
-          "imageSrc": "/clue-images/2026-06-14-play-11.svg",
-          "imageAlt": "Three-frame half-court basketball action diagram",
-          "imageCredit": "Local diagram"
-        },
-        "row": 2,
-        "col": 13
-      },
-      {
-        "number": 5,
-        "prompt": {
-          "text": "Thabo Sefolosha's country of origin."
-        },
-        "row": 4,
-        "col": 9
-      },
-      {
-        "number": 8,
-        "prompt": {
-          "text": "Clockless ending format used in the All-Star Game."
-        },
-        "row": 6,
-        "col": 2
-      },
-      {
-        "number": 10,
-        "prompt": {
-          "text": "Pick-and-roll coverage where the big briefly jumps out to slow the ball handler."
-        },
-        "row": 7,
-        "col": 4
       },
       {
         "number": 12,
         "prompt": {
-          "text": "Regularized Adjusted Plus-Minus, for people who distrust raw lineup noise."
+          "text": "Clockless ending format used in the All-Star Game."
         },
         "row": 7,
-        "col": 16
+        "col": 17
+      },
+      {
+        "number": 13,
+        "prompt": {
+          "text": "Transition-stopping infraction the league targeted to protect fast breaks."
+        },
+        "row": 8,
+        "col": 10
+      },
+      {
+        "number": 15,
+        "prompt": {
+          "text": "The roster-building bill paid by teams that spend above the league threshold."
+        },
+        "row": 9,
+        "col": 17
       },
       {
         "number": 16,
         "prompt": {
-          "text": "Philly icon whose name also describes a famous cut across the elbows."
+          "text": "Thabo Sefolosha's country of origin."
         },
         "row": 10,
-        "col": 14
+        "col": 5
       },
       {
         "number": 18,
         "prompt": {
-          "text": "Celtics legend whose passes and shot-making made advantage creation look casual."
+          "text": "Executive surname turned shorthand for asking whether losing can be a strategy."
         },
-        "row": 11,
-        "col": 3
-      },
-      {
-        "number": 19,
-        "prompt": {
-          "text": "Orlando's NBA team, or what a perfect late-clock set can feel like."
-        },
-        "row": 11,
-        "col": 7
+        "row": 12,
+        "col": 9
       },
       {
         "number": 20,
         "prompt": {
-          "text": "The city whose team has lived through Shaq, Penny, Dwight, rebuilds, and lottery hope."
+          "text": "Describe the basketball action shown in the image: a baseline drive triggers a weak-side back screen for a corner shooter.",
+          "imageSrc": "/clue-images/2026-06-10-hammer.jpg",
+          "imageAlt": "Basketball hammer action diagram",
+          "imageCredit": "HoopStudent image supplied by user"
         },
-        "row": 11,
-        "col": 11
+        "row": 13,
+        "col": 3
       },
       {
         "number": 21,
         "prompt": {
-          "text": "Describe the basketball action shown across these three frames. The shooter runs off two separated off-ball screens.",
-          "imageSrc": "/clue-images/2026-06-14-play-12.svg",
-          "imageAlt": "Three-frame half-court basketball action diagram",
-          "imageCredit": "Local diagram"
+          "text": "Celtics legend whose shooting, passing, and trash talk still shape the franchise mythos."
+        },
+        "row": 14,
+        "col": 12
+      },
+      {
+        "number": 22,
+        "prompt": {
+          "text": "Thunder executive associated with patience, draft capital, and one of the league's deepest asset cupboards."
+        },
+        "row": 15,
+        "col": 5
+      },
+      {
+        "number": 24,
+        "prompt": {
+          "text": "Regularized Adjusted Plus-Minus, for people who distrust raw lineup noise."
+        },
+        "row": 17,
+        "col": 8
+      },
+      {
+        "number": 25,
+        "prompt": {
+          "text": "Describe the basketball action shown in the image: both bigs begin high at the elbows with the ball up top.",
+          "imageSrc": "/clue-images/2026-06-10-horns.jpg",
+          "imageAlt": "Basketball horns offense diagram",
+          "imageCredit": "HoopStudent image supplied by user"
+        },
+        "row": 19,
+        "col": 8
+      }
+    ],
+    "down": [
+      {
+        "number": 2,
+        "prompt": {
+          "text": "Identify the NBA city shown in the image.",
+          "imageSrc": "/clue-images/2026-06-10-chicago.webp",
+          "imageAlt": "Chicago basketball city image",
+          "imageCredit": "Image supplied by user"
+        },
+        "row": 0,
+        "col": 7
+      },
+      {
+        "number": 4,
+        "prompt": {
+          "text": "Executive surname linked with threes, layups, free throws, stars, and very public roster math."
+        },
+        "row": 1,
+        "col": 19
+      },
+      {
+        "number": 5,
+        "prompt": {
+          "text": "New-CBA spending line that can freeze trades, picks, exceptions, and roster flexibility."
+        },
+        "row": 2,
+        "col": 11
+      },
+      {
+        "number": 6,
+        "prompt": {
+          "text": "Raptors executive first name associated with the Kawhi swing and Toronto's 2019 title."
+        },
+        "row": 3,
+        "col": 3
+      },
+      {
+        "number": 8,
+        "prompt": {
+          "text": "Raptors guard whose impact often lived in charges, pace control, and late-clock nerve."
+        },
+        "row": 5,
+        "col": 1
+      },
+      {
+        "number": 10,
+        "prompt": {
+          "text": "Franchise where the parquet, banners, Russell, Bird, Pierce, KG, and Tatum all sit in one argument."
+        },
+        "row": 6,
+        "col": 17
+      },
+      {
+        "number": 14,
+        "prompt": {
+          "text": "Salary-cap exception often treated like the middle-class tool of team-building."
+        },
+        "row": 9,
+        "col": 7
+      },
+      {
+        "number": 17,
+        "prompt": {
+          "text": "The labor document behind max slots, exceptions, aprons, and most front-office headaches."
+        },
+        "row": 11,
+        "col": 4
+      },
+      {
+        "number": 19,
+        "prompt": {
+          "text": "Who said, after going up 2-0 in the 2009 Finals, that the job was not finished?"
         },
         "row": 12,
-        "col": 5
+        "col": 12
+      },
+      {
+        "number": 23,
+        "prompt": {
+          "text": "Sefolosha's first name."
+        },
+        "row": 15,
+        "col": 9
       }
     ]
   }
