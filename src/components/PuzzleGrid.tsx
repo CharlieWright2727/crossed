@@ -27,6 +27,7 @@ export function PuzzleGrid({ puzzle, entries, selected, activeCells, revealed, i
     "--grid-cols": puzzle.size.cols,
     "--grid-rows": puzzle.size.rows,
     "--mobile-grid-min-width": `${puzzle.size.cols * mobileCellSize}px`,
+    "--mobile-grid-min-height": `${puzzle.size.rows * mobileCellSize}px`,
     gridTemplateColumns: `repeat(${puzzle.size.cols}, minmax(0, 1fr))`,
     gridTemplateRows: `repeat(${puzzle.size.rows}, minmax(0, 1fr))`,
     aspectRatio: `${puzzle.size.cols} / ${puzzle.size.rows}`,

@@ -1001,7 +1001,7 @@ p {
   }
 
   .app-shell {
-    padding: calc(max(18px, env(safe-area-inset-top)) + 8px) 12px calc(132px + env(safe-area-inset-bottom));
+    padding: calc(max(18px, env(safe-area-inset-top)) + 8px) 12px calc(220px + env(safe-area-inset-bottom));
   }
 
   .game-header,
@@ -1044,16 +1044,19 @@ p {
     justify-content: flex-start;
     width: 100%;
     max-width: 100%;
+    max-height: min(58vh, 520px);
     overflow-x: auto;
-    overflow-y: hidden;
-    overscroll-behavior-x: contain;
-    padding-bottom: 6px;
+    overflow-y: auto;
+    overscroll-behavior: contain;
+    padding: 0 0 6px;
     -webkit-overflow-scrolling: touch;
     scrollbar-color: rgba(8, 116, 36, 0.35) transparent;
     scrollbar-width: thin;
+    touch-action: pan-x pan-y;
   }
 
   .puzzle-grid-scroll::-webkit-scrollbar {
+    width: 7px;
     height: 7px;
   }
 
@@ -1069,6 +1072,8 @@ p {
   .puzzle-grid {
     width: max(100%, var(--mobile-grid-min-width));
     min-width: var(--mobile-grid-min-width);
+    height: max(100%, var(--mobile-grid-min-height));
+    min-height: var(--mobile-grid-min-height);
     max-width: none;
     margin: 0;
     border-width: 3px;
@@ -1097,6 +1102,16 @@ p {
     grid-column: 1 / -1;
     grid-row: 2;
     font-size: 0.92rem;
+  }
+
+  .keyboard {
+    position: fixed;
+    left: 50%;
+    bottom: max(8px, env(safe-area-inset-bottom));
+    z-index: 12;
+    width: min(calc(100vw - 24px), 460px);
+    transform: translateX(-50%);
+    backdrop-filter: blur(16px);
   }
 }
 
@@ -1211,7 +1226,7 @@ p {
   .keyboard {
     padding: 10px 8px;
     border-radius: 18px;
-    margin-bottom: 24px;
+    margin-bottom: 0;
   }
 
   .keyboard-row {
