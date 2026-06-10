@@ -9,12 +9,18 @@
       null,
       null,
       null,
-      "D",
       null,
       null,
-      "A",
       null,
-      "D",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
       null
     ],
     [
@@ -22,164 +28,293 @@
       null,
       null,
       null,
-      "T",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      "D",
+      "H",
+      "O",
+      null,
+      null,
+      "E",
+      null,
+      "P",
+      "I",
+      "N",
+      "C",
+      "H",
+      null
+    ],
+    [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      "R",
+      null,
+      null,
+      null,
+      null,
+      "L",
+      null,
+      "I",
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      null,
+      null,
+      null,
+      null,
       null,
       "H",
-      "E",
-      "L",
-      "P",
-      "E",
+      "O",
       "R",
-      null
-    ],
-    [
+      "N",
+      "S",
       null,
-      null,
-      null,
-      null,
-      "A",
-      null,
-      "O",
-      null,
-      null,
-      "R",
-      null,
-      "O",
-      null
-    ],
-    [
-      null,
-      "H",
       "E",
-      "D",
-      "G",
-      "E",
-      null,
-      null,
-      null,
-      "O",
-      null,
-      "P",
-      null
-    ],
-    [
-      null,
-      null,
-      "L",
-      null,
-      null,
       null,
       "S",
-      "T",
-      "U",
-      "N",
-      "T",
       null,
-      null
-    ],
-    [
-      "C",
-      "B",
-      "A",
-      null,
-      null,
-      null,
-      "P",
-      null,
-      "S",
       null,
       null,
       null,
       null
     ],
     [
-      "O",
-      null,
-      "M",
-      "I",
-      "D",
-      "R",
-      "A",
-      "N",
-      "G",
-      "E",
-      null,
-      null,
-      "L"
-    ],
-    [
-      "R",
-      null,
-      null,
-      "C",
-      null,
-      null,
-      "C",
       null,
       null,
       null,
       null,
       null,
-      "O"
-    ],
-    [
-      "N",
       null,
-      null,
-      "E",
-      null,
-      "H",
-      "I",
-      "N",
-      "K",
-      "I",
-      "E",
-      null,
-      "W"
-    ],
-    [
-      "E",
-      null,
-      "B",
-      null,
-      null,
-      null,
-      "N",
-      null,
-      null,
-      null,
-      null,
-      null,
-      "R"
-    ],
-    [
-      "R",
-      "A",
       "P",
-      "M",
       null,
       null,
-      "G",
-      "R",
-      "A",
+      "W",
+      null,
       "V",
-      "I",
+      null,
       "T",
-      "Y"
+      "A",
+      "G",
+      null,
+      null,
+      null
+    ],
+    [
+      "I",
+      "C",
+      "E",
+      null,
+      null,
+      null,
+      null,
+      "C",
+      "H",
+      "I",
+      "C",
+      "A",
+      "G",
+      "O",
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      null,
+      null,
+      "L",
+      null,
+      "H",
+      null,
+      null,
+      null,
+      null,
+      "T",
+      null,
+      "T",
+      null,
+      "L",
+      "O",
+      "W",
+      "R",
+      "Y",
+      null
+    ],
+    [
+      "F",
+      "L",
+      "A",
+      "R",
+      "E",
+      null,
+      null,
+      null,
+      null,
+      "Z",
+      null,
+      "O",
+      null,
+      null,
+      null,
+      null,
+      "A",
+      null,
+      null
     ],
     [
       null,
       null,
       "M",
       null,
+      "D",
+      "O",
+      "U",
+      "B",
+      "L",
+      "E",
+      "D",
+      "R",
+      "A",
+      "G",
+      null,
+      "B",
+      "P",
+      "M",
+      null
+    ],
+    [
       null,
       null,
       null,
       null,
+      "G",
       null,
       null,
+      null,
+      null,
+      "R",
+      null,
+      null,
+      null,
+      null,
+      "I",
+      null,
+      "M",
+      null,
+      null
+    ],
+    [
+      null,
+      "K",
+      "O",
+      "B",
+      "E",
+      null,
+      null,
+      "M",
+      null,
+      "L",
+      null,
+      "O",
+      null,
+      null,
+      "V",
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      null,
+      null,
+      null,
+      "I",
+      null,
+      "S",
+      "C",
+      "A",
+      "L",
+      "A",
+      "B",
+      "R",
+      "I",
+      "N",
+      "E",
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      null,
+      null,
+      null,
+      "R",
+      null,
+      "T",
+      null,
+      "G",
+      null,
+      "N",
+      null,
+      "L",
+      null,
+      null,
+      "R",
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      null,
+      null,
+      null,
+      "D",
       null,
       "A",
+      null,
+      "I",
+      null,
+      "D",
+      null,
+      "A",
+      null,
+      null,
+      "S",
+      "L",
+      "I",
+      "P",
       null
     ],
     [
@@ -188,99 +323,196 @@
       null,
       null,
       null,
+      "G",
+      null,
+      "C",
+      null,
+      null,
+      null,
+      "N",
+      null,
+      null,
+      "O",
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      null,
+      null,
+      null,
+      null,
+      null,
+      "G",
+      null,
+      null,
+      null,
+      null,
+      null,
+      "D",
+      null,
+      null,
+      "N",
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      null,
+      "H",
+      "A",
+      "M",
+      "M",
+      "E",
+      "R",
+      null,
+      null,
+      "G",
+      "H",
+      "O",
+      "S",
+      "T",
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      null,
+      null,
+      null,
+      null,
+      null,
+      "R",
       null,
       null,
       null,
       null,
       null,
       null,
-      "X",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
       null
     ]
   ],
   "clues": {
     "across": [
       {
-        "number": 5,
-        "answer": "HELPER"
-      },
-      {
-        "number": 6,
-        "answer": "HEDGE"
-      },
-      {
-        "number": 8,
-        "answer": "STUNT"
-      },
-      {
-        "number": 10,
-        "answer": "CBA"
-      },
-      {
-        "number": 11,
-        "answer": "MIDRANGE"
-      },
-      {
-        "number": 14,
-        "answer": "HINKIE"
-      },
-      {
-        "number": 16,
-        "answer": "RAPM"
-      },
-      {
-        "number": 17,
-        "answer": "GRAVITY"
-      }
-    ],
-    "down": [
-      {
         "number": 1,
         "answer": "DHO"
       },
       {
-        "number": 2,
-        "answer": "APRON"
-      },
-      {
         "number": 3,
-        "answer": "DROP"
+        "answer": "PINCH"
       },
       {
         "number": 4,
+        "answer": "HORNS"
+      },
+      {
+        "number": 6,
         "answer": "TAG"
       },
       {
         "number": 7,
-        "answer": "ELAM"
-      },
-      {
-        "number": 8,
-        "answer": "SPACING"
-      },
-      {
-        "number": 9,
-        "answer": "USG"
-      },
-      {
-        "number": 10,
-        "answer": "CORNER"
-      },
-      {
-        "number": 12,
         "answer": "ICE"
       },
       {
-        "number": 13,
+        "number": 9,
+        "answer": "CHICAGO"
+      },
+      {
+        "number": 11,
         "answer": "LOWRY"
+      },
+      {
+        "number": 13,
+        "answer": "FLARE"
+      },
+      {
+        "number": 14,
+        "answer": "DOUBLEDRAG"
       },
       {
         "number": 15,
         "answer": "BPM"
       },
       {
+        "number": 17,
+        "answer": "KOBE"
+      },
+      {
+        "number": 21,
+        "answer": "SCALABRINE"
+      },
+      {
+        "number": 22,
+        "answer": "SLIP"
+      },
+      {
+        "number": 23,
+        "answer": "HAMMER"
+      },
+      {
+        "number": 24,
+        "answer": "GHOST"
+      }
+    ],
+    "down": [
+      {
+        "number": 1,
+        "answer": "DROP"
+      },
+      {
+        "number": 2,
+        "answer": "ELEVATOR"
+      },
+      {
+        "number": 3,
+        "answer": "PISTOL"
+      },
+      {
+        "number": 5,
+        "answer": "SWITZERLAND"
+      },
+      {
+        "number": 8,
+        "answer": "ELAM"
+      },
+      {
+        "number": 10,
+        "answer": "HEDGE"
+      },
+      {
+        "number": 12,
+        "answer": "RAPM"
+      },
+      {
+        "number": 16,
+        "answer": "IVERSON"
+      },
+      {
         "number": 18,
-        "answer": "TAX"
+        "answer": "BIRD"
+      },
+      {
+        "number": 19,
+        "answer": "MAGIC"
+      },
+      {
+        "number": 20,
+        "answer": "ORLANDO"
+      },
+      {
+        "number": 21,
+        "answer": "STAGGER"
       }
     ]
   }

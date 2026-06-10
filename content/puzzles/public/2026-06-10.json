@@ -1,12 +1,12 @@
 {
   "id": "2026-06-10",
   "date": "2026-06-10",
-  "title": "Margins of the Game",
+  "title": "Frame Study",
   "author": "Crossed",
   "difficulty": "hard",
   "size": {
-    "rows": 13,
-    "cols": 13
+    "rows": 19,
+    "cols": 19
   },
   "layout": [
     [
@@ -16,177 +16,18 @@
       "#",
       "#",
       "#",
-      ".",
       "#",
       "#",
-      ".",
       "#",
-      ".",
-      "#"
-    ],
-    [
       "#",
       "#",
       "#",
       "#",
-      ".",
       "#",
-      ".",
-      ".",
-      ".",
-      ".",
-      ".",
-      ".",
-      "#"
-    ],
-    [
       "#",
       "#",
       "#",
       "#",
-      ".",
-      "#",
-      ".",
-      "#",
-      "#",
-      ".",
-      "#",
-      ".",
-      "#"
-    ],
-    [
-      "#",
-      ".",
-      ".",
-      ".",
-      ".",
-      ".",
-      "#",
-      "#",
-      "#",
-      ".",
-      "#",
-      ".",
-      "#"
-    ],
-    [
-      "#",
-      "#",
-      ".",
-      "#",
-      "#",
-      "#",
-      ".",
-      ".",
-      ".",
-      ".",
-      ".",
-      "#",
-      "#"
-    ],
-    [
-      ".",
-      ".",
-      ".",
-      "#",
-      "#",
-      "#",
-      ".",
-      "#",
-      ".",
-      "#",
-      "#",
-      "#",
-      "#"
-    ],
-    [
-      ".",
-      "#",
-      ".",
-      ".",
-      ".",
-      ".",
-      ".",
-      ".",
-      ".",
-      ".",
-      "#",
-      "#",
-      "."
-    ],
-    [
-      ".",
-      "#",
-      "#",
-      ".",
-      "#",
-      "#",
-      ".",
-      "#",
-      "#",
-      "#",
-      "#",
-      "#",
-      "."
-    ],
-    [
-      ".",
-      "#",
-      "#",
-      ".",
-      "#",
-      ".",
-      ".",
-      ".",
-      ".",
-      ".",
-      ".",
-      "#",
-      "."
-    ],
-    [
-      ".",
-      "#",
-      ".",
-      "#",
-      "#",
-      "#",
-      ".",
-      "#",
-      "#",
-      "#",
-      "#",
-      "#",
-      "."
-    ],
-    [
-      ".",
-      ".",
-      ".",
-      ".",
-      "#",
-      "#",
-      ".",
-      ".",
-      ".",
-      ".",
-      ".",
-      ".",
-      "."
-    ],
-    [
-      "#",
-      "#",
-      ".",
-      "#",
-      "#",
-      "#",
-      "#",
-      "#",
-      "#",
-      "#",
-      "#",
-      ".",
       "#"
     ],
     [
@@ -201,176 +42,631 @@
       "#",
       "#",
       "#",
+      "#",
+      "#",
+      "#",
+      "#",
+      "#",
+      "#",
+      "#",
+      "#"
+    ],
+    [
+      "#",
+      "#",
+      "#",
+      "#",
+      "#",
+      "#",
       ".",
+      ".",
+      ".",
+      "#",
+      "#",
+      ".",
+      "#",
+      ".",
+      ".",
+      ".",
+      ".",
+      ".",
+      "#"
+    ],
+    [
+      "#",
+      "#",
+      "#",
+      "#",
+      "#",
+      "#",
+      ".",
+      "#",
+      "#",
+      "#",
+      "#",
+      ".",
+      "#",
+      ".",
+      "#",
+      "#",
+      "#",
+      "#",
+      "#"
+    ],
+    [
+      "#",
+      "#",
+      "#",
+      "#",
+      "#",
+      ".",
+      ".",
+      ".",
+      ".",
+      ".",
+      "#",
+      ".",
+      "#",
+      ".",
+      "#",
+      "#",
+      "#",
+      "#",
+      "#"
+    ],
+    [
+      "#",
+      "#",
+      "#",
+      "#",
+      "#",
+      "#",
+      ".",
+      "#",
+      "#",
+      ".",
+      "#",
+      ".",
+      "#",
+      ".",
+      ".",
+      ".",
+      "#",
+      "#",
+      "#"
+    ],
+    [
+      ".",
+      ".",
+      ".",
+      "#",
+      "#",
+      "#",
+      "#",
+      ".",
+      ".",
+      ".",
+      ".",
+      ".",
+      ".",
+      ".",
+      "#",
+      "#",
+      "#",
+      "#",
+      "#"
+    ],
+    [
+      "#",
+      "#",
+      ".",
+      "#",
+      ".",
+      "#",
+      "#",
+      "#",
+      "#",
+      ".",
+      "#",
+      ".",
+      "#",
+      ".",
+      ".",
+      ".",
+      ".",
+      ".",
+      "#"
+    ],
+    [
+      ".",
+      ".",
+      ".",
+      ".",
+      ".",
+      "#",
+      "#",
+      "#",
+      "#",
+      ".",
+      "#",
+      ".",
+      "#",
+      "#",
+      "#",
+      "#",
+      ".",
+      "#",
+      "#"
+    ],
+    [
+      "#",
+      "#",
+      ".",
+      "#",
+      ".",
+      ".",
+      ".",
+      ".",
+      ".",
+      ".",
+      ".",
+      ".",
+      ".",
+      ".",
+      "#",
+      ".",
+      ".",
+      ".",
+      "#"
+    ],
+    [
+      "#",
+      "#",
+      "#",
+      "#",
+      ".",
+      "#",
+      "#",
+      "#",
+      "#",
+      ".",
+      "#",
+      "#",
+      "#",
+      "#",
+      ".",
+      "#",
+      ".",
+      "#",
+      "#"
+    ],
+    [
+      "#",
+      ".",
+      ".",
+      ".",
+      ".",
+      "#",
+      "#",
+      ".",
+      "#",
+      ".",
+      "#",
+      ".",
+      "#",
+      "#",
+      ".",
+      "#",
+      "#",
+      "#",
+      "#"
+    ],
+    [
+      "#",
+      "#",
+      "#",
+      ".",
+      "#",
+      ".",
+      ".",
+      ".",
+      ".",
+      ".",
+      ".",
+      ".",
+      ".",
+      ".",
+      ".",
+      "#",
+      "#",
+      "#",
+      "#"
+    ],
+    [
+      "#",
+      "#",
+      "#",
+      ".",
+      "#",
+      ".",
+      "#",
+      ".",
+      "#",
+      ".",
+      "#",
+      ".",
+      "#",
+      "#",
+      ".",
+      "#",
+      "#",
+      "#",
+      "#"
+    ],
+    [
+      "#",
+      "#",
+      "#",
+      ".",
+      "#",
+      ".",
+      "#",
+      ".",
+      "#",
+      ".",
+      "#",
+      ".",
+      "#",
+      "#",
+      ".",
+      ".",
+      ".",
+      ".",
+      "#"
+    ],
+    [
+      "#",
+      "#",
+      "#",
+      "#",
+      "#",
+      ".",
+      "#",
+      ".",
+      "#",
+      "#",
+      "#",
+      ".",
+      "#",
+      "#",
+      ".",
+      "#",
+      "#",
+      "#",
+      "#"
+    ],
+    [
+      "#",
+      "#",
+      "#",
+      "#",
+      "#",
+      ".",
+      "#",
+      "#",
+      "#",
+      "#",
+      "#",
+      ".",
+      "#",
+      "#",
+      ".",
+      "#",
+      "#",
+      "#",
+      "#"
+    ],
+    [
+      "#",
+      ".",
+      ".",
+      ".",
+      ".",
+      ".",
+      ".",
+      "#",
+      "#",
+      ".",
+      ".",
+      ".",
+      ".",
+      ".",
+      "#",
+      "#",
+      "#",
+      "#",
+      "#"
+    ],
+    [
+      "#",
+      "#",
+      "#",
+      "#",
+      "#",
+      ".",
+      "#",
+      "#",
+      "#",
+      "#",
+      "#",
+      "#",
+      "#",
+      "#",
+      "#",
+      "#",
+      "#",
+      "#",
       "#"
     ]
   ],
   "clues": {
     "across": [
       {
-        "number": 5,
+        "number": 1,
         "prompt": {
-          "text": "The help-side defender whose value often lives outside the box score."
+          "text": "Describe the basketball action shown across these three frames. The ball handler hands off while the receiver turns the corner.",
+          "imageSrc": "/clue-images/2026-06-14-play-01.svg",
+          "imageAlt": "Three-frame half-court basketball action diagram",
+          "imageCredit": "Local diagram"
         },
-        "row": 1,
+        "row": 2,
         "col": 6
+      },
+      {
+        "number": 3,
+        "prompt": {
+          "text": "Describe the basketball action shown across these three frames. Two players meet near the elbow area rather than starting from a spread corner.",
+          "imageSrc": "/clue-images/2026-06-14-play-02.svg",
+          "imageAlt": "Three-frame half-court basketball action diagram",
+          "imageCredit": "Local diagram"
+        },
+        "row": 2,
+        "col": 13
+      },
+      {
+        "number": 4,
+        "prompt": {
+          "text": "Describe the basketball action shown across these three frames. Both bigs begin high at the elbows with the ball up top.",
+          "imageSrc": "/clue-images/2026-06-14-play-03.svg",
+          "imageAlt": "Three-frame half-court basketball action diagram",
+          "imageCredit": "Local diagram"
+        },
+        "row": 4,
+        "col": 5
       },
       {
         "number": 6,
         "prompt": {
-          "text": "High pick-and-roll coverage that trades paint protection for ball pressure."
-        },
-        "row": 3,
-        "col": 1
-      },
-      {
-        "number": 8,
-        "prompt": {
-          "text": "A low-commitment dig at the ball: enough to disturb, not enough to rotate the house."
-        },
-        "row": 4,
-        "col": 6
-      },
-      {
-        "number": 10,
-        "prompt": {
-          "text": "The labor document behind max slots, exceptions, aprons, and every 'why can't they just sign him?' debate."
+          "text": "The roller's temporary weak-side escort before the defense peels back out."
         },
         "row": 5,
+        "col": 13
+      },
+      {
+        "number": 7,
+        "prompt": {
+          "text": "Coverage call that keeps the ball on the sideline and out of the middle."
+        },
+        "row": 6,
         "col": 0
+      },
+      {
+        "number": 9,
+        "prompt": {
+          "text": "Describe the basketball action shown across these three frames. The sequence combines a pin-down with a handoff.",
+          "imageSrc": "/clue-images/2026-06-14-play-04.svg",
+          "imageAlt": "Three-frame half-court basketball action diagram",
+          "imageCredit": "Local diagram"
+        },
+        "row": 6,
+        "col": 7
       },
       {
         "number": 11,
         "prompt": {
-          "text": "The shot zone analytics tried to kill, then elite creators kept resurrecting in May and June."
+          "text": "Player shown in the image: small guard, enormous charge-taking résumé, and a title with Toronto.",
+          "imageSrc": "/clue-images/2026-06-14-player-01.svg",
+          "imageAlt": "Illustrated placeholder portrait of a veteran basketball guard",
+          "imageCredit": "Local placeholder artwork"
         },
-        "row": 6,
-        "col": 2
+        "row": 7,
+        "col": 13
+      },
+      {
+        "number": 13,
+        "prompt": {
+          "text": "Describe the basketball action shown across these three frames. The off-ball screen sends the shooter drifting away from the ball.",
+          "imageSrc": "/clue-images/2026-06-14-play-05.svg",
+          "imageAlt": "Three-frame half-court basketball action diagram",
+          "imageCredit": "Local diagram"
+        },
+        "row": 8,
+        "col": 0
       },
       {
         "number": 14,
         "prompt": {
-          "text": "The executive surname that became shorthand for asking whether losing can be an argument."
+          "text": "Describe the basketball action shown across these three frames. A transition ball handler uses two high screens in a row.",
+          "imageSrc": "/clue-images/2026-06-14-play-06.svg",
+          "imageAlt": "Three-frame half-court basketball action diagram",
+          "imageCredit": "Local diagram"
         },
-        "row": 8,
-        "col": 5
+        "row": 9,
+        "col": 4
       },
       {
-        "number": 16,
+        "number": 15,
         "prompt": {
-          "text": "Plus-minus model that tries to strip out lineup noise by regularization rather than vibes."
+          "text": "Box Plus/Minus: a public all-in-one stat whose certainty should not be overrated."
         },
-        "row": 10,
-        "col": 0
+        "row": 9,
+        "col": 15
       },
       {
         "number": 17,
         "prompt": {
-          "text": "The invisible force that bends defenses before a screen is even set."
+          "text": "Who said, after going up 2-0 in the 2009 Finals, that the job was not finished?"
         },
-        "row": 10,
-        "col": 6
+        "row": 11,
+        "col": 1
+      },
+      {
+        "number": 21,
+        "prompt": {
+          "text": "Celtics cult hero nicknamed the White Mamba."
+        },
+        "row": 12,
+        "col": 5
+      },
+      {
+        "number": 22,
+        "prompt": {
+          "text": "Describe the basketball action shown across these three frames. The screener leaves before real contact, punishing an overplay.",
+          "imageSrc": "/clue-images/2026-06-14-play-07.svg",
+          "imageAlt": "Three-frame half-court basketball action diagram",
+          "imageCredit": "Local diagram"
+        },
+        "row": 14,
+        "col": 14
+      },
+      {
+        "number": 23,
+        "prompt": {
+          "text": "Describe the basketball action shown across these three frames. A baseline drive triggers a weak-side back screen for a corner shooter.",
+          "imageSrc": "/clue-images/2026-06-14-play-08.svg",
+          "imageAlt": "Three-frame half-court basketball action diagram",
+          "imageCredit": "Local diagram"
+        },
+        "row": 17,
+        "col": 1
+      },
+      {
+        "number": 24,
+        "prompt": {
+          "text": "Describe the basketball action shown across these three frames. The would-be screener fakes the screen, then pops or slips into space.",
+          "imageSrc": "/clue-images/2026-06-14-play-09.svg",
+          "imageAlt": "Three-frame half-court basketball action diagram",
+          "imageCredit": "Local diagram"
+        },
+        "row": 17,
+        "col": 9
       }
     ],
     "down": [
       {
         "number": 1,
         "prompt": {
-          "text": "Chicago-style action: a handoff stitched into a screen, often weaponized for shooters."
+          "text": "Conservative ball-screen coverage: protect the rim first, solve the pull-up later."
         },
-        "row": 0,
+        "row": 2,
         "col": 6
       },
       {
         "number": 2,
         "prompt": {
-          "text": "Cap accounting ghost that can matter before a player is even re-signed."
+          "text": "Describe the basketball action shown across these three frames. Two screeners close like doors after the shooter runs between them.",
+          "imageSrc": "/clue-images/2026-06-14-play-10.svg",
+          "imageAlt": "Three-frame half-court basketball action diagram",
+          "imageCredit": "Local diagram"
         },
-        "row": 0,
-        "col": 9
+        "row": 2,
+        "col": 11
       },
       {
         "number": 3,
         "prompt": {
-          "text": "Conservative ball-screen coverage that says: protect the rim first, solve the jumper later."
+          "text": "Describe the basketball action shown across these three frames. Early-offense side action often starting with an advance pass and handoff/screen threat.",
+          "imageSrc": "/clue-images/2026-06-14-play-11.svg",
+          "imageAlt": "Three-frame half-court basketball action diagram",
+          "imageCredit": "Local diagram"
         },
-        "row": 0,
-        "col": 11
+        "row": 2,
+        "col": 13
       },
       {
-        "number": 4,
+        "number": 5,
         "prompt": {
-          "text": "The defender's brief ownership of a roller before the rotation is passed on."
+          "text": "Thabo Sefolosha's country of origin."
         },
-        "row": 1,
-        "col": 4
-      },
-      {
-        "number": 7,
-        "prompt": {
-          "text": "Endgame format that turns the clock off and asks whether basketball should finish on a make."
-        },
-        "row": 3,
-        "col": 2
+        "row": 4,
+        "col": 9
       },
       {
         "number": 8,
         "prompt": {
-          "text": "The modern offensive condition: five players arranged to make every help decision expensive."
+          "text": "Clockless ending format used in the All-Star Game."
         },
-        "row": 4,
-        "col": 6
-      },
-      {
-        "number": 9,
-        "prompt": {
-          "text": "Possession share stat that can confuse responsibility with dominance."
-        },
-        "row": 4,
-        "col": 8
+        "row": 6,
+        "col": 2
       },
       {
         "number": 10,
         "prompt": {
-          "text": "Weak-side geography: where a shooter waits while the ball argues with the paint."
+          "text": "Pick-and-roll coverage where the big briefly jumps out to slow the ball handler."
         },
-        "row": 5,
-        "col": 0
+        "row": 7,
+        "col": 4
       },
       {
         "number": 12,
         "prompt": {
-          "text": "Ball-screen coverage call that can turn a drive into a sideline trap without saying 'trap'."
+          "text": "Regularized Adjusted Plus-Minus, for people who distrust raw lineup noise."
         },
-        "row": 6,
-        "col": 3
+        "row": 7,
+        "col": 16
       },
       {
-        "number": 13,
+        "number": 16,
         "prompt": {
-          "text": "Player shown in the image: the small guard whose impact often hid in charges, pace control, and late-clock decisions.",
-          "imageSrc": "/clue-images/lowry-placeholder.svg",
-          "imageAlt": "Illustrated placeholder portrait of a veteran basketball guard",
-          "imageCredit": "Local placeholder artwork"
+          "text": "Philly icon whose name also describes a famous cut across the elbows."
         },
-        "row": 6,
-        "col": 12
-      },
-      {
-        "number": 15,
-        "prompt": {
-          "text": "Box Plus/Minus: a public all-in-one stat whose confidence interval should humble hot takes."
-        },
-        "row": 9,
-        "col": 2
+        "row": 10,
+        "col": 14
       },
       {
         "number": 18,
         "prompt": {
-          "text": "The bill for a roster that says the owner believes contention is already here."
+          "text": "Celtics legend whose passes and shot-making made advantage creation look casual."
         },
-        "row": 10,
+        "row": 11,
+        "col": 3
+      },
+      {
+        "number": 19,
+        "prompt": {
+          "text": "Orlando's NBA team, or what a perfect late-clock set can feel like."
+        },
+        "row": 11,
+        "col": 7
+      },
+      {
+        "number": 20,
+        "prompt": {
+          "text": "The city whose team has lived through Shaq, Penny, Dwight, rebuilds, and lottery hope."
+        },
+        "row": 11,
         "col": 11
+      },
+      {
+        "number": 21,
+        "prompt": {
+          "text": "Describe the basketball action shown across these three frames. The shooter runs off two separated off-ball screens.",
+          "imageSrc": "/clue-images/2026-06-14-play-12.svg",
+          "imageAlt": "Three-frame half-court basketball action diagram",
+          "imageCredit": "Local diagram"
+        },
+        "row": 12,
+        "col": 5
       }
     ]
   }

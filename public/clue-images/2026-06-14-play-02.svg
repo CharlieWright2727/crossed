@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="280" viewBox="0 0 640 280" role="img" aria-labelledby="title desc">
+  <title id="title">Three-frame basketball action diagram</title>
+  <desc id="desc">A generic three-frame half-court diagram showing player movement and screening action.</desc>
+  <defs>
+    <marker id="arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto">
+      <path d="M0,0 L8,4 L0,8 Z" fill="#149d37"/>
+    </marker>
+  </defs>
+  <rect width="640" height="280" rx="28" fill="#f6fbf4"/>
+  
+        <g transform="translate(20,28)">
+          <rect x="0" y="0" width="184" height="224" rx="18" fill="#fffefa" stroke="#d8ead2" stroke-width="3"/>
+          <path d="M92 0 V224 M24 112 H160" stroke="#d8ead2" stroke-width="2" opacity="0.75"/>
+          <path d="M46 24 H138 V88 H46 Z" fill="none" stroke="#d8ead2" stroke-width="2"/>
+          <circle cx="92" cy="78" r="25" fill="none" stroke="#d8ead2" stroke-width="2"/>
+          <circle cx="92" cy="26" r="6" fill="#f08a24"/>
+          <text x="16" y="207" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="800" fill="#6c746c">FRAME 1</text>
+        <circle cx="46" cy="172" r="13" fill="#149d37"/><text x="46" y="177" text-anchor="middle" font-family="Arial" font-size="12" font-weight="800" fill="#fffefa">1</text><circle cx="94" cy="130" r="13" fill="#149d37"/><text x="94" y="135" text-anchor="middle" font-family="Arial" font-size="12" font-weight="800" fill="#fffefa">5</text><circle cx="134" cy="172" r="13" fill="#149d37"/><text x="134" y="177" text-anchor="middle" font-family="Arial" font-size="12" font-weight="800" fill="#fffefa">2</text><circle cx="68" cy="76" r="13" fill="#111315"/><text x="68" y="81" text-anchor="middle" font-family="Arial" font-size="12" font-weight="800" fill="#fffefa">3</text><circle cx="120" cy="76" r="13" fill="#111315"/><text x="120" y="81" text-anchor="middle" font-family="Arial" font-size="12" font-weight="800" fill="#fffefa">4</text><path d="M54.6 92.3 C70.4 64.3, 70.4 135.1, 86.2 117.1" fill="none" stroke="#149d37" stroke-width="5" stroke-linecap="round" marker-end="url(#arrow)"/></g>
+        <g transform="translate(223,28)">
+          <rect x="0" y="0" width="184" height="224" rx="18" fill="#fffefa" stroke="#d8ead2" stroke-width="3"/>
+          <path d="M92 0 V224 M24 112 H160" stroke="#d8ead2" stroke-width="2" opacity="0.75"/>
+          <path d="M46 24 H138 V88 H46 Z" fill="none" stroke="#d8ead2" stroke-width="2"/>
+          <circle cx="92" cy="78" r="25" fill="none" stroke="#d8ead2" stroke-width="2"/>
+          <circle cx="92" cy="26" r="6" fill="#f08a24"/>
+          <text x="16" y="207" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="800" fill="#6c746c">FRAME 2</text>
+        <circle cx="50" cy="172" r="13" fill="#149d37"/><text x="50" y="177" text-anchor="middle" font-family="Arial" font-size="12" font-weight="800" fill="#fffefa">1</text><circle cx="89" cy="130" r="13" fill="#149d37"/><text x="89" y="135" text-anchor="middle" font-family="Arial" font-size="12" font-weight="800" fill="#fffefa">5</text><circle cx="138" cy="172" r="13" fill="#149d37"/><text x="138" y="177" text-anchor="middle" font-family="Arial" font-size="12" font-weight="800" fill="#fffefa">2</text><circle cx="63" cy="76" r="13" fill="#111315"/><text x="63" y="81" text-anchor="middle" font-family="Arial" font-size="12" font-weight="800" fill="#fffefa">3</text><circle cx="124" cy="76" r="13" fill="#111315"/><text x="124" y="81" text-anchor="middle" font-family="Arial" font-size="12" font-weight="800" fill="#fffefa">4</text><path d="M80.5 166.7 C98.9 138.7, 98.9 184.7, 117.3 166.7" fill="none" stroke="#149d37" stroke-width="5" stroke-linecap="round" marker-end="url(#arrow)"/></g>
+        <g transform="translate(426,28)">
+          <rect x="0" y="0" width="184" height="224" rx="18" fill="#fffefa" stroke="#d8ead2" stroke-width="3"/>
+          <path d="M92 0 V224 M24 112 H160" stroke="#d8ead2" stroke-width="2" opacity="0.75"/>
+          <path d="M46 24 H138 V88 H46 Z" fill="none" stroke="#d8ead2" stroke-width="2"/>
+          <circle cx="92" cy="78" r="25" fill="none" stroke="#d8ead2" stroke-width="2"/>
+          <circle cx="92" cy="26" r="6" fill="#f08a24"/>
+          <text x="16" y="207" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="800" fill="#6c746c">FRAME 3</text>
+        <circle cx="45" cy="172" r="13" fill="#149d37"/><text x="45" y="177" text-anchor="middle" font-family="Arial" font-size="12" font-weight="800" fill="#fffefa">1</text><circle cx="95" cy="130" r="13" fill="#149d37"/><text x="95" y="135" text-anchor="middle" font-family="Arial" font-size="12" font-weight="800" fill="#fffefa">5</text><circle cx="133" cy="172" r="13" fill="#149d37"/><text x="133" y="177" text-anchor="middle" font-family="Arial" font-size="12" font-weight="800" fill="#fffefa">2</text><circle cx="69" cy="76" r="13" fill="#111315"/><text x="69" y="81" text-anchor="middle" font-family="Arial" font-size="12" font-weight="800" fill="#fffefa">3</text><circle cx="119" cy="76" r="13" fill="#111315"/><text x="119" y="81" text-anchor="middle" font-family="Arial" font-size="12" font-weight="800" fill="#fffefa">4</text><path d="M126.5 92.3 C138.0 64.3, 138.0 145.7, 149.5 127.7" fill="none" stroke="#149d37" stroke-width="5" stroke-linecap="round" marker-end="url(#arrow)"/></g>
+</svg>
