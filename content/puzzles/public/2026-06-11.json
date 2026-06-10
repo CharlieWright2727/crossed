@@ -10,12 +10,6 @@
   },
   "layout": [
     [
-      ".",
-      ".",
-      ".",
-      ".",
-      ".",
-      ".",
       "#",
       "#",
       "#",
@@ -24,187 +18,9 @@
       "#",
       ".",
       "#",
-      ".",
-      "#",
-      ".",
-      "#",
-      ".",
-      "#",
-      "."
-    ],
-    [
-      "#",
-      "#",
-      "#",
-      "#",
-      "#",
-      "#",
-      "#",
-      "#",
-      "#",
-      "#",
       "#",
       "#",
       ".",
-      "#",
-      ".",
-      "#",
-      ".",
-      "#",
-      ".",
-      "#",
-      "."
-    ],
-    [
-      ".",
-      ".",
-      ".",
-      ".",
-      "#",
-      "#",
-      "#",
-      "#",
-      "#",
-      "#",
-      "#",
-      "#",
-      ".",
-      "#",
-      ".",
-      "#",
-      ".",
-      "#",
-      ".",
-      "#",
-      "."
-    ],
-    [
-      "#",
-      "#",
-      "#",
-      "#",
-      "#",
-      "#",
-      "#",
-      "#",
-      "#",
-      "#",
-      "#",
-      "#",
-      ".",
-      "#",
-      ".",
-      "#",
-      ".",
-      "#",
-      ".",
-      "#",
-      "."
-    ],
-    [
-      ".",
-      ".",
-      ".",
-      ".",
-      ".",
-      ".",
-      ".",
-      ".",
-      ".",
-      "#",
-      "#",
-      "#",
-      ".",
-      "#",
-      ".",
-      "#",
-      ".",
-      "#",
-      ".",
-      "#",
-      "."
-    ],
-    [
-      "#",
-      "#",
-      "#",
-      "#",
-      "#",
-      "#",
-      "#",
-      "#",
-      "#",
-      "#",
-      "#",
-      "#",
-      ".",
-      "#",
-      ".",
-      "#",
-      ".",
-      "#",
-      ".",
-      "#",
-      "."
-    ],
-    [
-      ".",
-      ".",
-      ".",
-      ".",
-      ".",
-      "#",
-      "#",
-      "#",
-      "#",
-      "#",
-      "#",
-      "#",
-      ".",
-      "#",
-      ".",
-      "#",
-      ".",
-      "#",
-      ".",
-      "#",
-      "."
-    ],
-    [
-      "#",
-      "#",
-      "#",
-      "#",
-      "#",
-      "#",
-      "#",
-      "#",
-      "#",
-      "#",
-      "#",
-      "#",
-      ".",
-      "#",
-      ".",
-      "#",
-      "#",
-      "#",
-      "#",
-      "#",
-      "#"
-    ],
-    [
-      ".",
-      ".",
-      ".",
-      ".",
-      ".",
-      ".",
-      "#",
-      "#",
-      "#",
-      "#",
-      "#",
       "#",
       "#",
       "#",
@@ -223,27 +39,10 @@
       "#",
       "#",
       "#",
-      "#",
-      "#",
-      "#",
-      "#",
-      "#",
-      "#",
       ".",
       "#",
-      ".",
       "#",
-      ".",
       "#",
-      ".",
-      "#",
-      "."
-    ],
-    [
-      ".",
-      ".",
-      ".",
-      ".",
       ".",
       "#",
       "#",
@@ -252,132 +51,89 @@
       "#",
       "#",
       "#",
-      ".",
       "#",
-      ".",
-      "#",
-      ".",
-      "#",
-      ".",
-      "#",
-      "."
-    ],
-    [
-      "#",
-      "#",
-      "#",
-      "#",
-      "#",
-      "#",
-      "#",
-      "#",
-      "#",
-      "#",
-      "#",
-      "#",
-      ".",
-      "#",
-      ".",
-      "#",
-      ".",
-      "#",
-      ".",
-      "#",
-      "."
-    ],
-    [
-      ".",
-      ".",
-      ".",
-      ".",
-      ".",
-      "#",
-      "#",
-      "#",
-      "#",
-      "#",
-      "#",
-      "#",
-      ".",
-      "#",
-      ".",
-      "#",
-      ".",
-      "#",
-      ".",
-      "#",
-      "."
-    ],
-    [
-      "#",
-      "#",
-      "#",
-      "#",
-      "#",
-      "#",
-      "#",
-      "#",
-      "#",
-      "#",
-      "#",
-      "#",
-      ".",
-      "#",
-      ".",
-      "#",
-      ".",
-      "#",
-      ".",
-      "#",
-      "."
-    ],
-    [
-      ".",
-      ".",
-      ".",
-      ".",
-      ".",
-      ".",
-      ".",
-      ".",
-      "#",
-      "#",
-      "#",
-      "#",
-      ".",
-      "#",
-      ".",
-      "#",
-      ".",
-      "#",
-      ".",
-      "#",
-      "."
-    ],
-    [
-      "#",
-      "#",
-      "#",
-      "#",
-      "#",
-      "#",
-      "#",
-      "#",
-      "#",
-      "#",
-      "#",
-      "#",
-      ".",
-      "#",
-      ".",
-      "#",
-      ".",
-      "#",
-      ".",
       "#",
       "#"
     ],
     [
+      "#",
+      "#",
+      "#",
+      "#",
+      "#",
+      "#",
+      ".",
+      ".",
+      ".",
+      ".",
+      ".",
+      "#",
+      "#",
+      "#",
+      "#",
+      "#",
+      "#",
+      "#",
+      "#",
+      "#",
+      "#"
+    ],
+    [
+      "#",
+      "#",
+      "#",
+      "#",
+      "#",
+      "#",
+      ".",
+      "#",
+      "#",
+      "#",
+      ".",
+      "#",
+      "#",
+      "#",
+      "#",
+      "#",
+      ".",
+      "#",
+      "#",
+      "#",
+      "#"
+    ],
+    [
+      "#",
+      "#",
+      "#",
+      "#",
+      "#",
+      "#",
+      ".",
+      "#",
+      "#",
+      "#",
+      ".",
+      "#",
+      "#",
+      "#",
+      ".",
+      "#",
+      ".",
+      "#",
+      "#",
+      "#",
+      "#"
+    ],
+    [
+      "#",
+      "#",
+      "#",
+      "#",
+      "#",
+      "#",
+      "#",
+      "#",
+      "#",
       ".",
       ".",
       ".",
@@ -385,6 +141,43 @@
       ".",
       ".",
       ".",
+      ".",
+      "#",
+      "#",
+      "#",
+      "#"
+    ],
+    [
+      "#",
+      "#",
+      "#",
+      "#",
+      "#",
+      "#",
+      "#",
+      "#",
+      "#",
+      "#",
+      ".",
+      "#",
+      "#",
+      "#",
+      ".",
+      "#",
+      ".",
+      "#",
+      "#",
+      "#",
+      "#"
+    ],
+    [
+      "#",
+      "#",
+      "#",
+      "#",
+      "#",
+      "#",
+      "#",
       "#",
       "#",
       "#",
@@ -407,40 +200,17 @@
       "#",
       "#",
       "#",
-      "#",
-      "#",
-      "#",
-      "#",
-      "#",
-      "#",
-      "#",
-      "#",
-      "#",
-      "#",
-      "#",
-      "#",
       ".",
-      "#",
-      "#"
-    ],
-    [
+      ".",
       ".",
       ".",
       ".",
       ".",
       ".",
       "#",
+      ".",
       "#",
-      "#",
-      "#",
-      "#",
-      "#",
-      "#",
-      "#",
-      "#",
-      "#",
-      "#",
-      "#",
+      ".",
       "#",
       ".",
       "#",
@@ -450,6 +220,7 @@
       "#",
       "#",
       "#",
+      ".",
       "#",
       "#",
       "#",
@@ -457,11 +228,56 @@
       "#",
       "#",
       "#",
+      ".",
+      "#",
+      "#",
+      ".",
+      "#",
+      ".",
+      ".",
+      ".",
+      ".",
+      "#"
+    ],
+    [
+      "#",
+      "#",
+      "#",
+      ".",
+      "#",
+      ".",
+      ".",
+      ".",
+      ".",
+      ".",
+      ".",
+      ".",
+      ".",
+      ".",
+      ".",
+      ".",
+      "#",
+      "#",
+      ".",
+      "#",
+      "#"
+    ],
+    [
+      "#",
+      "#",
+      "#",
+      ".",
+      "#",
+      ".",
       "#",
       "#",
       "#",
       "#",
       "#",
+      ".",
+      "#",
+      "#",
+      ".",
       "#",
       "#",
       "#",
@@ -473,6 +289,59 @@
       "#",
       "#",
       "#",
+      ".",
+      "#",
+      ".",
+      "#",
+      ".",
+      ".",
+      ".",
+      ".",
+      ".",
+      ".",
+      ".",
+      "#",
+      "#",
+      "#",
+      "#",
+      "#",
+      "#",
+      "#"
+    ],
+    [
+      "#",
+      ".",
+      "#",
+      ".",
+      "#",
+      ".",
+      "#",
+      "#",
+      "#",
+      ".",
+      "#",
+      ".",
+      "#",
+      "#",
+      "#",
+      "#",
+      "#",
+      "#",
+      "#",
+      "#",
+      "#"
+    ],
+    [
+      ".",
+      ".",
+      ".",
+      ".",
+      ".",
+      ".",
+      ".",
+      ".",
+      "#",
+      ".",
       "#",
       "#",
       "#",
@@ -483,7 +352,138 @@
       "#",
       "#",
       "#",
+      "#"
+    ],
+    [
       "#",
+      ".",
+      "#",
+      "#",
+      "#",
+      ".",
+      "#",
+      "#",
+      "#",
+      ".",
+      ".",
+      ".",
+      ".",
+      ".",
+      "#",
+      "#",
+      "#",
+      "#",
+      "#",
+      "#",
+      "#"
+    ],
+    [
+      "#",
+      ".",
+      "#",
+      "#",
+      "#",
+      ".",
+      "#",
+      "#",
+      "#",
+      ".",
+      "#",
+      "#",
+      "#",
+      "#",
+      "#",
+      "#",
+      "#",
+      "#",
+      "#",
+      "#",
+      "#"
+    ],
+    [
+      "#",
+      ".",
+      "#",
+      "#",
+      "#",
+      "#",
+      "#",
+      "#",
+      "#",
+      ".",
+      "#",
+      "#",
+      "#",
+      "#",
+      "#",
+      "#",
+      "#",
+      "#",
+      "#",
+      "#",
+      "#"
+    ],
+    [
+      "#",
+      ".",
+      "#",
+      "#",
+      ".",
+      ".",
+      ".",
+      ".",
+      ".",
+      ".",
+      "#",
+      "#",
+      "#",
+      "#",
+      "#",
+      "#",
+      "#",
+      "#",
+      "#",
+      "#",
+      "#"
+    ],
+    [
+      "#",
+      ".",
+      "#",
+      "#",
+      "#",
+      "#",
+      "#",
+      "#",
+      "#",
+      ".",
+      "#",
+      "#",
+      "#",
+      "#",
+      "#",
+      "#",
+      "#",
+      "#",
+      "#",
+      "#",
+      "#"
+    ],
+    [
+      "#",
+      ".",
+      "#",
+      "#",
+      "#",
+      "#",
+      ".",
+      ".",
+      ".",
+      ".",
+      ".",
+      ".",
+      ".",
+      ".",
       "#",
       "#",
       "#",
@@ -496,51 +496,59 @@
   "clues": {
     "across": [
       {
-        "number": 1,
+        "number": 3,
         "prompt": {
-          "text": "Suns forward nicknamed “The Matrix.”"
-        },
-        "row": 0,
-        "col": 0
-      },
-      {
-        "number": 7,
-        "prompt": {
-          "text": "French forward known for passing, versatility, and being part of the 2014 Spurs title team."
+          "text": "Spanish big man who won Defensive Player of the Year with Memphis."
         },
         "row": 2,
-        "col": 0
+        "col": 6
+      },
+      {
+        "number": 6,
+        "prompt": {
+          "text": "“We Believe” was the nickname for this team’s 2007 playoff upset group."
+        },
+        "row": 5,
+        "col": 9
       },
       {
         "number": 8,
         "prompt": {
-          "text": "Jazz forward whose nickname was “AK-47.”"
-        },
-        "row": 4,
-        "col": 0
-      },
-      {
-        "number": 9,
-        "prompt": {
-          "text": "Big man who won titles with the Warriors and later became famous for “Shaqtin’” moments."
-        },
-        "row": 6,
-        "col": 0
-      },
-      {
-        "number": 10,
-        "prompt": {
-          "text": "Guard nicknamed “The Bald Eagle,” loved for defence, hustle, and surprise playoff offence."
+          "text": "Clause that allowed teams to remove one bad contract from cap/tax calculations."
         },
         "row": 8,
-        "col": 0
+        "col": 6
+      },
+      {
+        "number": 11,
+        "prompt": {
+          "text": "French forward known for passing, versatility, and being part of the 2014 Spurs title team."
+        },
+        "row": 9,
+        "col": 16
+      },
+      {
+        "number": 12,
+        "prompt": {
+          "text": "Seattle’s former NBA team before the franchise moved to Oklahoma City."
+        },
+        "row": 10,
+        "col": 5
+      },
+      {
+        "number": 13,
+        "prompt": {
+          "text": "Damian Lillard, Gary Payton, and Jason Kidd all have major ties to this Bay Area hoops city."
+        },
+        "row": 12,
+        "col": 7
       },
       {
         "number": 16,
         "prompt": {
-          "text": "Spanish big man who won Defensive Player of the Year with Memphis."
+          "text": "Left-handed Spurs sixth man whose Eurostep became part of NBA vocabulary."
         },
-        "row": 10,
+        "row": 14,
         "col": 0
       },
       {
@@ -548,117 +556,109 @@
         "prompt": {
           "text": "Thunder-era shot-blocker famous for the phrase “I block shots.”"
         },
-        "row": 12,
-        "col": 0
+        "row": 15,
+        "col": 9
       },
       {
         "number": 18,
         "prompt": {
-          "text": "Veteran wing and Finals MVP for Golden State in 2015."
+          "text": "Suns forward nicknamed “The Matrix.”"
         },
-        "row": 14,
-        "col": 0
+        "row": 18,
+        "col": 4
       },
       {
         "number": 19,
         "prompt": {
-          "text": "Guard whose defence and calm decision-making helped Milwaukee win the 2021 title."
+          "text": "Veteran wing and Finals MVP for Golden State in 2015."
         },
-        "row": 16,
-        "col": 0
+        "row": 20,
+        "col": 6
+      }
+    ],
+    "down": [
+      {
+        "number": 1,
+        "prompt": {
+          "text": "Big man who won titles with the Warriors and later became famous for “Shaqtin’” moments."
+        },
+        "row": 0,
+        "col": 6
       },
       {
-        "number": 20,
+        "number": 2,
+        "prompt": {
+          "text": "Guard whose defence and calm decision-making helped Milwaukee win the 2021 title."
+        },
+        "row": 0,
+        "col": 10
+      },
+      {
+        "number": 4,
+        "prompt": {
+          "text": "Who popularised the phrase “Ball don’t lie”?"
+        },
+        "row": 3,
+        "col": 16
+      },
+      {
+        "number": 5,
+        "prompt": {
+          "text": "Longtime Spurs coach/executive surname associated with culture, continuity, and five titles."
+        },
+        "row": 4,
+        "col": 14
+      },
+      {
+        "number": 7,
         "prompt": {
           "text": "Identify the country represented by the image.",
           "imageSrc": "/clue-images/2026-06-11-spain.jpg",
           "imageAlt": "Image clue for Spain",
           "imageCredit": "Image supplied by user"
         },
-        "row": 18,
-        "col": 0
-      }
-    ],
-    "down": [
-      {
-        "number": 2,
-        "prompt": {
-          "text": "Left-handed Spurs sixth man whose Eurostep became part of NBA vocabulary."
-        },
-        "row": 0,
-        "col": 12
-      },
-      {
-        "number": 3,
-        "prompt": {
-          "text": "“We Believe” was the nickname for this team’s 2007 playoff upset group."
-        },
-        "row": 0,
-        "col": 14
-      },
-      {
-        "number": 4,
-        "prompt": {
-          "text": "Damian Lillard, Gary Payton, and Jason Kidd all have major ties to this Bay Area hoops city."
-        },
-        "row": 0,
-        "col": 16
-      },
-      {
-        "number": 5,
-        "prompt": {
-          "text": "Who popularised the phrase “Ball don’t lie”?"
-        },
-        "row": 0,
+        "row": 7,
         "col": 18
       },
       {
-        "number": 6,
+        "number": 9,
         "prompt": {
-          "text": "Rule named after a former Cavaliers owner that limits trading first-round picks in consecutive future drafts."
+          "text": "Contract type for players who can split time between an NBA team and its G League affiliate."
         },
-        "row": 0,
-        "col": 20
+        "row": 8,
+        "col": 11
       },
       {
-        "number": 11,
+        "number": 10,
         "prompt": {
-          "text": "Clause that allowed teams to remove one bad contract from cap/tax calculations."
+          "text": "Guard nicknamed “The Bald Eagle,” loved for defence, hustle, and surprise playoff offence."
         },
         "row": 9,
-        "col": 12
+        "col": 3
       },
       {
         "number": 12,
         "prompt": {
-          "text": "Longtime Spurs coach/executive surname associated with culture, continuity, and five titles."
+          "text": "Rule named after a former Cavaliers owner that limits trading first-round picks in consecutive future drafts."
         },
-        "row": 9,
-        "col": 14
-      },
-      {
-        "number": 13,
-        "prompt": {
-          "text": "Award given to the league’s best player off the bench."
-        },
-        "row": 9,
-        "col": 16
+        "row": 10,
+        "col": 5
       },
       {
         "number": 14,
         "prompt": {
-          "text": "Seattle’s former NBA team before the franchise moved to Oklahoma City."
+          "text": "Jazz forward whose nickname was “AK-47.”"
         },
-        "row": 9,
-        "col": 18
+        "row": 12,
+        "col": 9
       },
       {
         "number": 15,
         "prompt": {
-          "text": "Contract type for players who can split time between an NBA team and its G League affiliate."
+          "text": "Award given to the league’s best player off the bench."
         },
-        "row": 9,
-        "col": 20
+        "row": 13,
+        "col": 1
       }
     ]
   }
