@@ -109,7 +109,7 @@ function App() {
           </div>
           <OnScreenKeyboard onLetter={game.enterLetter} onBackspace={game.backspace} />
         </div>
-        <aside className="side-panel">
+        <section className="below-game">
           <ClueList
             puzzle={puzzle}
             activeClue={game.activeClue}
@@ -118,7 +118,7 @@ function App() {
             onImageOpen={setExpandedImage}
           />
           <ArchiveList puzzles={puzzles} activeDate={puzzle.date} onSelect={setSelectedDate} />
-        </aside>
+        </section>
       </section>
       <PrivacyNote />
       {expandedImage && (

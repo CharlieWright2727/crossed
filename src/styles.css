@@ -311,16 +311,33 @@ p {
 
 .game-board {
   display: grid;
-  grid-template-columns: minmax(340px, 0.55fr) minmax(320px, 0.45fr);
-  gap: clamp(24px, 3.6vw, 48px);
+  grid-template-columns: 1fr;
+  justify-items: center;
+  gap: clamp(26px, 4vw, 52px);
   align-items: start;
+  width: min(1180px, 100%);
+  margin: 0 auto;
 }
 
 .play-area,
-.side-panel,
+.below-game,
 .clues {
   display: grid;
   gap: 20px;
+}
+
+.play-area {
+  width: min(920px, 100%);
+  justify-items: stretch;
+}
+
+.below-game {
+  width: min(1120px, 100%);
+}
+
+.clues {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  align-items: start;
 }
 
 .grid-card,
@@ -400,12 +417,12 @@ p {
   justify-content: center;
   width: 100%;
   max-width: 100%;
-  padding: clamp(12px, 2vw, 20px);
+  padding: clamp(14px, 2.4vw, 26px);
 }
 
 .puzzle-grid {
   display: grid;
-  width: min(100%, 560px);
+  width: min(100%, 760px);
   min-width: min(100%, 320px);
   aspect-ratio: 1;
   contain: layout paint;
@@ -489,6 +506,7 @@ p {
   display: grid;
   grid-template-columns: repeat(4, minmax(0, 1fr));
   gap: 12px;
+  width: 100%;
 }
 
 .toolbar button {
@@ -510,6 +528,7 @@ p {
 .keyboard {
   padding: 18px;
   border-radius: 26px;
+  width: 100%;
 }
 
 .keyboard-row {
@@ -526,8 +545,8 @@ p {
 .keyboard button {
   flex: 1;
   min-width: 0;
-  max-width: 48px;
-  min-height: 46px;
+  max-width: 62px;
+  min-height: 52px;
   padding: 0 8px;
   border: 0;
   border-radius: 13px;
@@ -537,7 +556,7 @@ p {
 }
 
 .keyboard .backspace-key {
-  max-width: 62px;
+  max-width: 78px;
   background: #e8efe4;
   color: var(--accent-dark);
 }
@@ -921,17 +940,17 @@ p {
     display: none;
   }
 
-  .game-board {
-    grid-template-columns: 1fr;
-  }
-
   .grid-card {
     width: 100%;
   }
 
   .puzzle-grid {
-    width: min(100%, 560px);
+    width: min(100%, 680px);
     margin: 0 auto;
+  }
+
+  .clues {
+    grid-template-columns: 1fr;
   }
 
   .game-header {
