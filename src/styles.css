@@ -803,6 +803,16 @@ p {
   margin-bottom: 8px;
 }
 
+.privacy-note a {
+  color: var(--accent-dark);
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.privacy-note a:hover {
+  text-decoration: underline;
+}
+
 .modal-backdrop {
   position: fixed;
   inset: 0;

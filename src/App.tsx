@@ -8,7 +8,7 @@ import { PrivacyNote } from "./components/PrivacyNote";
 import { PuzzleGrid } from "./components/PuzzleGrid";
 import { StatsModal } from "./components/StatsModal";
 import { useCrosswordGame } from "./hooks/useCrosswordGame";
-import { getMostRecentPuzzle, getPuzzleForDate, puzzles } from "./puzzles";
+import { puzzles } from "./puzzles";
 import { localDateId } from "./utils/date";
 
 function formatPuzzleDate(dateId: string) {
@@ -25,8 +25,12 @@ function App() {
   const [expandedImage, setExpandedImage] = useState<{ src: string; alt: string; credit?: string } | null>(null);
   const [showKeyboard, setShowKeyboard] = useState(true);
   const playAreaRef = useRef<HTMLDivElement>(null);
-  const puzzle = useMemo(() => getPuzzleForDate(selectedDate) ?? getMostRecentPuzzle(selectedDate), [selectedDate]);
-  const game = useCrosswordGame(puzzle ?? puzzles[0]);
+  const availablePuzzles = useMemo(() => puzzles.filter((candidate) => candidate.date <= today), [today]);
+  const puzzle = useMemo(
+    () => availablePuzzles.find((candidate) => candidate.date === selectedDate) ?? getMostRecentAvailablePuzzle(availablePuzzles, selectedDate),
+    [availablePuzzles, selectedDate],
+  );
+  const game = useCrosswordGame(puzzle ?? availablePuzzles[0] ?? puzzles[0]);
 
   useEffect(() => {
     setShowComplete(true);
@@ -153,7 +157,7 @@ function App() {
             onSelect={game.selectClue}
             onImageOpen={setExpandedImage}
           />
-          <ArchiveList puzzles={puzzles} activeDate={puzzle.date} onSelect={setSelectedDate} />
+          <ArchiveList puzzles={availablePuzzles} activeDate={puzzle.date} onSelect={setSelectedDate} />
         </section>
       </section>
       <PrivacyNote />
@@ -189,3 +193,7 @@ function App() {
 }
 
 export default App;
+
+function getMostRecentAvailablePuzzle(availablePuzzles: typeof puzzles, beforeOrOn: string) {
+  return [...availablePuzzles].reverse().find((candidate) => candidate.date <= beforeOrOn);
+}
