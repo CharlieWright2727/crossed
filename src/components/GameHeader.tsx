@@ -11,7 +11,7 @@ export function GameHeader({ title, date, elapsed, onStats }: Props) {
   return (
     <header className="game-header">
       <div>
-        <p className="eyebrow">Daily basketball crossword</p>
+        <p className="eyebrow">Crossed basketball crossword</p>
         <h1>{title}</h1>
         <span>{date}</span>
       </div>

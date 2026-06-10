@@ -36,9 +36,10 @@ export function useCrosswordGame(puzzle: Puzzle) {
   }, [puzzle]);
 
   useEffect(() => {
+    if (complete) return undefined;
     const timer = window.setInterval(() => setElapsed(Math.floor((Date.now() - startedAt) / 1000)), 1000);
     return () => window.clearInterval(timer);
-  }, [startedAt]);
+  }, [complete, startedAt]);
 
   const activeClue = useMemo(() => findClueForCell(puzzle, selected, direction), [direction, puzzle, selected]);
   const activeCells = useMemo(() => (activeClue ? cellsForClue(activeClue, direction) : []), [activeClue, direction]);
@@ -54,18 +55,43 @@ export function useCrosswordGame(puzzle: Puzzle) {
   const finishIfSolved = useCallback(
     (grid = entries) => {
       if (!complete && isSolved(grid)) {
+        const finalSeconds = Math.floor((Date.now() - startedAt) / 1000);
         setComplete(true);
-        setStats(saveCompletion(puzzle.date, elapsed));
+        setElapsed(finalSeconds);
+        setStats(saveCompletion(puzzle.date, finalSeconds));
       }
     },
-    [complete, elapsed, entries, isSolved, puzzle.date],
+    [complete, entries, isSolved, puzzle.date, startedAt],
+  );
+
+  const toggleDirection = useCallback(() => {
+    setDirection((current) => {
+      const next = otherDirection(current);
+      return findClueForCell(puzzle, selected, next) ? next : current;
+    });
+  }, [puzzle, selected]);
+
+  const selectCell = useCallback(
+    (row: number, col: number) => {
+      if (puzzle.cells[row]?.[col] === null || puzzle.cells[row]?.[col] === undefined) return;
+      const nextSelected = { row, col };
+      if (sameCell(selected, nextSelected)) {
+        toggleDirection();
+        return;
+      }
+      setSelected(nextSelected);
+      setDirection((current) => resolveDirectionForCell(puzzle, nextSelected, current));
+    },
+    [puzzle, selected, toggleDirection],
   );
 
   const move = useCallback(
     (deltaRow: number, deltaCol: number) => {
-      setSelected((current) => nextOpenCell(puzzle, current, deltaRow, deltaCol));
+      const next = nextOpenCell(puzzle, selected, deltaRow, deltaCol);
+      setSelected(next);
+      setDirection((currentDirection) => resolveDirectionForCell(puzzle, next, currentDirection));
     },
-    [puzzle],
+    [puzzle, selected],
   );
 
   const enterLetter = useCallback(
@@ -136,6 +162,8 @@ export function useCrosswordGame(puzzle: Puzzle) {
     setRevealed(new Set());
     setIncorrect(new Set());
     setComplete(false);
+    setStartedAt(Date.now());
+    setElapsed(0);
   }, [puzzle]);
 
   useEffect(() => {
@@ -146,11 +174,11 @@ export function useCrosswordGame(puzzle: Puzzle) {
       if (event.key === "ArrowDown") move(1, 0);
       if (event.key === "ArrowLeft") move(0, -1);
       if (event.key === "ArrowRight") move(0, 1);
-      if (event.key === " " || event.key === "Enter") setDirection((value) => (value === "across" ? "down" : "across"));
+      if (event.key === " " || event.key === "Enter") toggleDirection();
     }
     window.addEventListener("keydown", onKeyDown);
     return () => window.removeEventListener("keydown", onKeyDown);
-  }, [backspace, enterLetter, move]);
+  }, [backspace, enterLetter, move, toggleDirection]);
 
   return {
     entries,
@@ -164,8 +192,8 @@ export function useCrosswordGame(puzzle: Puzzle) {
     complete,
     stats,
     assisted: revealed.size > 0,
-    setSelected,
-    setDirection,
+    selectCell,
+    toggleDirection,
     enterLetter,
     backspace,
     revealCell,
@@ -212,4 +240,14 @@ function cellsForClue(clue: Clue, direction: Direction) {
     row: clue.row + (direction === "down" ? index : 0),
     col: clue.col + (direction === "across" ? index : 0),
   }));
+}
+
+function otherDirection(direction: Direction): Direction {
+  return direction === "across" ? "down" : "across";
+}
+
+function resolveDirectionForCell(puzzle: Puzzle, cell: Position, preferred: Direction): Direction {
+  if (findClueForCell(puzzle, cell, preferred)) return preferred;
+  const fallback = otherDirection(preferred);
+  return findClueForCell(puzzle, cell, fallback) ? fallback : preferred;
 }

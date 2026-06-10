@@ -1,4 +1,4 @@
-import { useMemo, useState } from "react";
+import { useEffect, useMemo, useState } from "react";
 import { ArchiveList } from "./components/ArchiveList";
 import { ClueList } from "./components/ClueList";
 import { CompletionModal } from "./components/CompletionModal";
@@ -18,6 +18,10 @@ function App() {
   const [showComplete, setShowComplete] = useState(true);
   const puzzle = useMemo(() => getPuzzleForDate(selectedDate) ?? getMostRecentPuzzle(selectedDate), [selectedDate]);
   const game = useCrosswordGame(puzzle ?? puzzles[0]);
+
+  useEffect(() => {
+    setShowComplete(true);
+  }, [puzzle?.date]);
 
   if (!puzzle) {
     return (
@@ -44,7 +48,7 @@ function App() {
             activeCells={game.activeCells}
             revealed={game.revealed}
             incorrect={game.incorrect}
-            onSelect={(row, col) => game.setSelected({ row, col })}
+            onSelect={game.selectCell}
           />
           <div className="toolbar" aria-label="Puzzle actions">
             <button type="button" onClick={game.checkPuzzle}>Check puzzle</button>

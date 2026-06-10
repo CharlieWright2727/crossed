@@ -21,7 +21,15 @@ export function ClueList({ puzzle, activeClue, direction, onSelect }: Props) {
               onClick={() => onSelect(clue, listDirection)}
             >
               <strong>{clue.number}</strong>
-              <span>{clue.clue}</span>
+              <span className="clue-content">
+                {clue.prompt.imageSrc && (
+                  <span className="clue-image-wrap">
+                    <img src={clue.prompt.imageSrc} alt={clue.prompt.imageAlt} loading="lazy" />
+                    {clue.prompt.imageCredit && <small>{clue.prompt.imageCredit}</small>}
+                  </span>
+                )}
+                {clue.prompt.text && <span>{clue.prompt.text}</span>}
+              </span>
             </button>
           ))}
         </section>

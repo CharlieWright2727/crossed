@@ -1,0 +1,60 @@
+{
+  "id": "2026-06-10",
+  "date": "2026-06-10",
+  "title": "Opening Tip",
+  "author": "Crossed",
+  "difficulty": "easy",
+  "size": { "rows": 3, "cols": 3 },
+  "layout": [
+    [".", ".", "."],
+    [".", ".", "."],
+    [".", ".", "."]
+  ],
+  "clues": {
+    "across": [
+      {
+        "number": 1,
+        "prompt": {
+          "text": "League for the Finals and All-Star Weekend",
+          "imageSrc": "/clue-images/player-placeholder.svg",
+          "imageAlt": "Local basketball player placeholder illustration for an image clue",
+          "imageCredit": "Local placeholder artwork"
+        },
+        "row": 0,
+        "col": 0
+      },
+      {
+        "number": 4,
+        "prompt": { "text": "Scoreboard abbreviation for Boston" },
+        "row": 1,
+        "col": 0
+      },
+      {
+        "number": 5,
+        "prompt": { "text": "Box-score shorthand for an assist" },
+        "row": 2,
+        "col": 0
+      }
+    ],
+    "down": [
+      {
+        "number": 1,
+        "prompt": { "text": "League where MVPs lift the Michael Jordan Trophy" },
+        "row": 0,
+        "col": 0
+      },
+      {
+        "number": 2,
+        "prompt": { "text": "Celtics city abbreviation" },
+        "row": 0,
+        "col": 1
+      },
+      {
+        "number": 3,
+        "prompt": { "text": "Assist abbreviation on a stat sheet" },
+        "row": 0,
+        "col": 2
+      }
+    ]
+  }
+}

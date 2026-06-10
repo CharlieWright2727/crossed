@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 180" role="img" aria-labelledby="title desc">
+  <title id="title">Basketball player placeholder</title>
+  <desc id="desc">A simple local illustration used as a placeholder for an image clue.</desc>
+  <rect width="320" height="180" fill="#f6f4ef"/>
+  <circle cx="92" cy="74" r="32" fill="#d86f1f"/>
+  <path d="M48 162c8-38 31-58 69-58s61 20 69 58" fill="#151515"/>
+  <path d="M210 38h64v104h-64z" fill="#fffdf8" stroke="#151515" stroke-width="8"/>
+  <circle cx="242" cy="92" r="24" fill="none" stroke="#d86f1f" stroke-width="8"/>
+  <path d="M36 24h122M36 46h82M210 24h64" stroke="#151515" stroke-width="8" stroke-linecap="round"/>
+</svg>

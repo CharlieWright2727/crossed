@@ -24,10 +24,24 @@ const key = "nba-crossword-stats-v1";
 export function readStats(): LocalStats {
   try {
     const raw = localStorage.getItem(key);
-    return raw ? { ...defaultStats, ...JSON.parse(raw) } : defaultStats;
+    if (!raw) return defaultStats;
+    const parsed = JSON.parse(raw) as Partial<LocalStats>;
+    return {
+      ...defaultStats,
+      ...parsed,
+      completedDates: parsed.completedDates ?? defaultStats.completedDates,
+      completionTimes: parsed.completionTimes ?? defaultStats.completionTimes,
+      totalCompletions: parsed.totalCompletions ?? parsed.gamesPlayed ?? defaultStats.totalCompletions,
+      gamesPlayed: parsed.gamesPlayed ?? parsed.totalCompletions ?? defaultStats.gamesPlayed,
+    };
   } catch {
     return defaultStats;
   }
+}
+
+export function bestCompletionTime(stats: LocalStats) {
+  const times = Object.values(stats.completionTimes).filter((seconds) => Number.isFinite(seconds) && seconds > 0);
+  return times.length > 0 ? Math.min(...times) : undefined;
 }
 
 export function saveCompletion(date: string, seconds: number) {

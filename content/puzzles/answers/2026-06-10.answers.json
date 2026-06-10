@@ -1,0 +1,21 @@
+{
+  "id": "2026-06-10",
+  "date": "2026-06-10",
+  "cells": [
+    ["N", "B", "A"],
+    ["B", "O", "S"],
+    ["A", "S", "T"]
+  ],
+  "clues": {
+    "across": [
+      { "number": 1, "answer": "NBA" },
+      { "number": 4, "answer": "BOS" },
+      { "number": 5, "answer": "AST" }
+    ],
+    "down": [
+      { "number": 1, "answer": "NBA" },
+      { "number": 2, "answer": "BOS" },
+      { "number": 3, "answer": "AST" }
+    ]
+  }
+}

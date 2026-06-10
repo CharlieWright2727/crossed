@@ -208,6 +208,32 @@ h2 {
   text-align: left;
 }
 
+.clue-content {
+  display: grid;
+  gap: 8px;
+  min-width: 0;
+}
+
+.clue-image-wrap {
+  display: grid;
+  gap: 4px;
+}
+
+.clue-image-wrap img {
+  width: min(100%, 220px);
+  max-height: 120px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: var(--bg);
+  object-fit: cover;
+}
+
+.clue-image-wrap small {
+  color: var(--muted);
+  font-size: 0.72rem;
+  font-weight: 600;
+}
+
 .clue.current {
   border-color: var(--accent);
   background: var(--active);
@@ -381,6 +407,11 @@ h2 {
   .keyboard button {
     padding: 0 4px;
     font-size: 0.78rem;
+  }
+
+  .clue-image-wrap img {
+    width: 100%;
+    max-height: 96px;
   }
 }
 

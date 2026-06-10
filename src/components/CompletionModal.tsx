@@ -11,7 +11,7 @@ type Props = {
 };
 
 export function CompletionModal({ puzzle, elapsed, assisted, stats, onClose }: Props) {
-  const shareText = `NBA Crossword #${puzzle.id}
+  const shareText = `Crossed Basketball Crossword #${puzzle.id}
 Solved in ${formatTime(elapsed)}
 Streak: ${stats.currentStreak}
 ${puzzle.size.rows}x${puzzle.size.cols} Mini
@@ -33,7 +33,7 @@ ${assisted ? "Reveals used" : "No reveals"}`;
         <div className="stat-grid">
           <span><strong>{stats.currentStreak}</strong> Current streak</span>
           <span><strong>{stats.maxStreak}</strong> Max streak</span>
-          <span><strong>{stats.gamesPlayed}</strong> Games played</span>
+          <span><strong>{stats.totalCompletions}</strong> Won</span>
           <span><strong>{assisted ? "Assisted" : "Clean"}</strong> Result</span>
         </div>
         <div className="modal-actions">
