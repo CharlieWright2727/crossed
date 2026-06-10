@@ -23,6 +23,7 @@ export function PuzzleGrid({ puzzle, entries, selected, activeCells, revealed, i
   const numberFontMax = Math.min(0.95, Math.max(0.46, 7.2 / largestDimension));
   const gridStyle = {
     gridTemplateColumns: `repeat(${puzzle.size.cols}, minmax(0, 1fr))`,
+    gridTemplateRows: `repeat(${puzzle.size.rows}, minmax(0, 1fr))`,
     "--cell-font-size": `clamp(0.72rem, ${cellFontPreferred.toFixed(2)}vw, ${cellFontMax.toFixed(2)}rem)`,
     "--cell-number-size": `clamp(0.42rem, ${(cellFontPreferred * 0.42).toFixed(2)}vw, ${numberFontMax.toFixed(2)}rem)`,
   } as CSSProperties;
