@@ -13,7 +13,7 @@ export function ClueList({ puzzle, activeClue, direction, onSelect }: Props) {
       {(["across", "down"] as Direction[]).map((listDirection) => (
         <section className="clue-card" key={listDirection}>
           <div className="clue-card-header">
-            <span className="clue-card-icon" aria-hidden="true">{listDirection === "across" ? "🏀" : "↓"}</span>
+            <span className={`clue-card-icon ${listDirection}`} aria-hidden="true" />
             <h2>{listDirection}</h2>
           </div>
           {puzzle.clues[listDirection].map((clue) => (

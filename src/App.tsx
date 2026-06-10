@@ -44,11 +44,14 @@ function App() {
   return (
     <main className="app-shell">
       <div className="background-dots" aria-hidden="true" />
-      <div className="vertical-mantra" aria-hidden="true">BALL IS LIFE</div>
+      <div className="left-motion" aria-hidden="true">
+        <span />
+        <span />
+      </div>
       <GameHeader elapsed={game.elapsed} streak={game.stats.currentStreak} onStats={() => setShowStats(true)} />
       <section className="title-block">
-        <h1>{puzzle.title}<span aria-hidden="true">🏀</span></h1>
-        <p><span aria-hidden="true">📅</span>{formatPuzzleDate(puzzle.date)}</p>
+        <h1>{puzzle.title}<span className="title-mark" aria-hidden="true" /></h1>
+        <p><span className="date-mark" aria-hidden="true" />{formatPuzzleDate(puzzle.date)}</p>
       </section>
       {isArchive && <p className="archive-banner">No puzzle is available for today, so you are playing the latest archive puzzle.</p>}
       <section className="game-board">

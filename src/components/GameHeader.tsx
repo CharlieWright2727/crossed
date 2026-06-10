@@ -10,14 +10,14 @@ export function GameHeader({ elapsed, streak, onStats }: Props) {
   return (
     <header className="game-header">
       <div className="brand-cluster">
-        <div className="brand-mark" aria-hidden="true">🏀</div>
+        <div className="brand-mark" aria-hidden="true" />
         <div className="brand-copy">
           <strong>CROSSED</strong>
           <span>BASKETBALL CROSSWORD</span>
         </div>
         <span className="header-divider" aria-hidden="true" />
         <span className="streak-pill" aria-label={`${streak} day streak`}>
-          🔥 {streak} DAY STREAK
+          <span className="streak-mark" aria-hidden="true" /> {streak} DAY STREAK
         </span>
       </div>
       <div className="header-actions">
