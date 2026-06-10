@@ -431,6 +431,8 @@ p {
   border-radius: 18px;
   background: var(--text);
   gap: 3px;
+  touch-action: manipulation;
+  user-select: none;
 }
 
 .cell {
@@ -451,6 +453,9 @@ p {
   font-weight: 800;
   line-height: 1;
   text-transform: uppercase;
+  touch-action: manipulation;
+  user-select: none;
+  -webkit-tap-highlight-color: transparent;
 }
 
 .cell.blocked {
@@ -482,8 +487,8 @@ p {
   max-width: 86%;
   max-height: 86%;
   overflow: hidden;
-  line-height: 1;
-  transform: translateY(2px);
+  line-height: 0.92;
+  transform: translateY(1px);
   pointer-events: none;
 }
 
@@ -553,6 +558,9 @@ p {
   background: #f2f5ec;
   box-shadow: 0 5px 0 #d7e1ce, 0 12px 20px var(--shadow);
   font-weight: 700;
+  touch-action: manipulation;
+  user-select: none;
+  -webkit-tap-highlight-color: transparent;
 }
 
 .keyboard .backspace-key {
@@ -999,6 +1007,15 @@ p {
 }
 
 @media (max-width: 560px) {
+  .game-board {
+    gap: 22px;
+  }
+
+  .play-area,
+  .below-game {
+    gap: 14px;
+  }
+
   .brand-copy strong {
     font-size: 1.05rem;
     line-height: 1;
@@ -1035,6 +1052,10 @@ p {
   .active-clue-panel,
   .archive {
     border-radius: 22px;
+  }
+
+  .grid-card {
+    padding: 8px;
   }
 
   .active-clue-panel {
@@ -1074,9 +1095,31 @@ p {
   }
 
   .puzzle-grid {
-    border-width: 4px;
-    gap: 2px;
-    border-radius: 14px;
+    width: min(100%, calc(100vw - 24px));
+    min-width: 0;
+    border-width: 3px;
+    gap: 1px;
+    border-radius: 12px;
+  }
+
+  .cell {
+    font-weight: 760;
+  }
+
+  .cell.selected {
+    box-shadow: inset 0 0 0 3px var(--accent-dark);
+  }
+
+  .cell-number {
+    top: 2px;
+    left: 3px;
+  }
+
+  .cell.revealed::after {
+    top: 3px;
+    right: 3px;
+    width: 5px;
+    height: 5px;
   }
 
   .toolbar {
@@ -1091,18 +1134,26 @@ p {
   }
 
   .keyboard {
-    padding: 12px;
+    padding: 10px 8px;
+    border-radius: 18px;
   }
 
   .keyboard-row {
-    gap: 4px;
+    gap: 3px;
+    margin-bottom: 7px;
   }
 
   .keyboard button {
-    min-height: 40px;
-    padding: 0 3px;
-    border-radius: 10px;
-    font-size: 0.78rem;
+    min-height: 44px;
+    max-width: none;
+    padding: 0 2px;
+    border-radius: 9px;
+    box-shadow: 0 3px 0 #d7e1ce, 0 8px 14px var(--shadow);
+    font-size: 0.9rem;
+  }
+
+  .keyboard .backspace-key {
+    max-width: none;
   }
 
   .clue {

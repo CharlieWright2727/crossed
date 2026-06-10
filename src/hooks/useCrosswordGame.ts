@@ -86,26 +86,34 @@ export function useCrosswordGame(puzzle: Puzzle) {
     [puzzle, selected, toggleDirection],
   );
 
-  const move = useCallback(
-    (deltaRow: number, deltaCol: number) => {
-      const next = nextOpenCell(puzzle, selected, deltaRow, deltaCol);
+  const moveFrom = useCallback(
+    (from: Position, deltaRow: number, deltaCol: number) => {
+      const next = nextOpenCell(puzzle, from, deltaRow, deltaCol);
       setSelected(next);
       setDirection((currentDirection) => resolveDirectionForCell(puzzle, next, currentDirection));
     },
-    [puzzle, selected],
+    [puzzle],
+  );
+
+  const move = useCallback(
+    (deltaRow: number, deltaCol: number) => {
+      moveFrom(selected, deltaRow, deltaCol);
+    },
+    [moveFrom, selected],
   );
 
   const enterLetter = useCallback(
     (letter: string) => {
+      const currentCell = selected;
       setEntries((current) => {
         const next = current.map((row) => [...row]);
-        next[selected.row][selected.col] = letter.toUpperCase();
+        next[currentCell.row][currentCell.col] = letter.toUpperCase();
         window.setTimeout(() => finishIfSolved(next), 0);
         return next;
       });
-      move(direction === "down" ? 1 : 0, direction === "across" ? 1 : 0);
+      moveFrom(currentCell, direction === "down" ? 1 : 0, direction === "across" ? 1 : 0);
     },
-    [direction, finishIfSolved, move, selected],
+    [direction, finishIfSolved, moveFrom, selected],
   );
 
   const backspace = useCallback(() => {
