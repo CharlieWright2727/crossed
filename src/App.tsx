@@ -1,4 +1,4 @@
-import { useEffect, useMemo, useState } from "react";
+import { useEffect, useMemo, useRef, useState } from "react";
 import { ArchiveList } from "./components/ArchiveList";
 import { ClueList } from "./components/ClueList";
 import { CompletionModal } from "./components/CompletionModal";
@@ -23,6 +23,8 @@ function App() {
   const [showStats, setShowStats] = useState(false);
   const [showComplete, setShowComplete] = useState(true);
   const [expandedImage, setExpandedImage] = useState<{ src: string; alt: string; credit?: string } | null>(null);
+  const [showKeyboard, setShowKeyboard] = useState(true);
+  const playAreaRef = useRef<HTMLDivElement>(null);
   const puzzle = useMemo(() => getPuzzleForDate(selectedDate) ?? getMostRecentPuzzle(selectedDate), [selectedDate]);
   const game = useCrosswordGame(puzzle ?? puzzles[0]);
 
@@ -37,6 +39,30 @@ function App() {
     window.addEventListener("keydown", closeOnEscape);
     return () => window.removeEventListener("keydown", closeOnEscape);
   }, []);
+
+  useEffect(() => {
+    function updateKeyboardVisibility() {
+      if (window.matchMedia("(min-width: 681px)").matches) {
+        setShowKeyboard(true);
+        return;
+      }
+
+      const playArea = playAreaRef.current;
+      if (!playArea) return;
+
+      const rect = playArea.getBoundingClientRect();
+      const visibleEnough = rect.bottom > window.innerHeight * 0.24 && rect.top < window.innerHeight * 0.88;
+      setShowKeyboard(visibleEnough);
+    }
+
+    updateKeyboardVisibility();
+    window.addEventListener("scroll", updateKeyboardVisibility, { passive: true });
+    window.addEventListener("resize", updateKeyboardVisibility);
+    return () => {
+      window.removeEventListener("scroll", updateKeyboardVisibility);
+      window.removeEventListener("resize", updateKeyboardVisibility);
+    };
+  }, [puzzle?.date]);
 
   if (!puzzle) {
     return (
@@ -65,7 +91,7 @@ function App() {
       </section>
       {isArchive && <p className="archive-banner">No puzzle is available for today, so you are playing the latest archive puzzle.</p>}
       <section className="game-board">
-        <div className="play-area">
+        <div className="play-area" ref={playAreaRef}>
           {activeClue && (
             <section className="active-clue-panel" aria-live="polite" aria-label="Selected clue">
               <span className="active-clue-meta">
@@ -117,7 +143,7 @@ function App() {
               <span aria-hidden="true">↻</span> Reset
             </button>
           </div>
-          <OnScreenKeyboard onLetter={game.enterLetter} onBackspace={game.backspace} />
+          <OnScreenKeyboard onLetter={game.enterLetter} onBackspace={game.backspace} hidden={!showKeyboard} />
         </div>
         <section className="below-game">
           <ClueList

@@ -3,11 +3,12 @@ const rows = ["QWERTYUIOP", "ASDFGHJKL"];
 type Props = {
   onLetter: (letter: string) => void;
   onBackspace: () => void;
+  hidden?: boolean;
 };
 
-export function OnScreenKeyboard({ onLetter, onBackspace }: Props) {
+export function OnScreenKeyboard({ onLetter, onBackspace, hidden = false }: Props) {
   return (
-    <div className="keyboard" aria-label="On-screen keyboard">
+    <div className={`keyboard ${hidden ? "keyboard-hidden" : ""}`} aria-label="On-screen keyboard" aria-hidden={hidden}>
       {rows.map((row) => (
         <div className="keyboard-row" key={row}>
           {row.split("").map((letter) => (

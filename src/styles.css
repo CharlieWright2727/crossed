@@ -554,6 +554,7 @@ p {
   padding: 18px;
   border-radius: 26px;
   width: 100%;
+  transition: opacity 180ms ease, transform 180ms ease;
 }
 
 .keyboard-row {
@@ -1112,6 +1113,12 @@ p {
     width: min(calc(100vw - 24px), 460px);
     transform: translateX(-50%);
     backdrop-filter: blur(16px);
+  }
+
+  .keyboard.keyboard-hidden {
+    opacity: 0;
+    pointer-events: none;
+    transform: translateX(-50%) translateY(calc(100% + 24px));
   }
 }
 
