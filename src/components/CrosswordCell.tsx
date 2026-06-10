@@ -28,7 +28,7 @@ export function CrosswordCell({ value, solution, number, row, col, selected, act
       {number && <span className="cell-number">{number}</span>}
       {value && (
         <svg className="cell-letter" viewBox="0 0 100 100" aria-hidden="true" focusable="false">
-          <text x="50" y="55" textAnchor="middle" dominantBaseline="middle">
+          <text x="50" y="50" textAnchor="middle" dominantBaseline="central">
             {value}
           </text>
         </svg>

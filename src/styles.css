@@ -490,7 +490,7 @@ p {
 
 .cell-letter {
   position: absolute;
-  inset: 12%;
+  inset: 11%;
   display: block;
   width: auto;
   height: auto;
@@ -506,6 +506,7 @@ p {
   font-size: 72px;
   font-weight: 800;
   line-height: 1;
+  text-rendering: geometricPrecision;
 }
 
 .cell.revealed::after {
