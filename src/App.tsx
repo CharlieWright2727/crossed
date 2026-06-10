@@ -102,10 +102,20 @@ function App() {
             />
           </section>
           <div className="toolbar" aria-label="Puzzle actions">
-            <button type="button" className="primary-action" onClick={game.checkPuzzle}><span aria-hidden="true">✓</span> Check Puzzle</button>
-            <button type="button" onClick={game.revealCell}><span aria-hidden="true">⌕</span> Reveal Cell</button>
-            <button type="button" onClick={game.revealWord}><span aria-hidden="true">▣</span> Reveal Word</button>
-            <button type="button" onClick={game.reset}><span aria-hidden="true">↻</span> Reset</button>
+            <button type="button" className="primary-action" onClick={game.checkPuzzle} aria-label="Check Puzzle">
+              <span aria-hidden="true">✓</span>
+              <span className="toolbar-label-full">Check Puzzle</span>
+              <span className="toolbar-label-mobile">Check</span>
+            </button>
+            <button type="button" onClick={game.revealCell} aria-label="Reveal Cell">
+              <span aria-hidden="true">⌕</span> Reveal Cell
+            </button>
+            <button type="button" onClick={game.revealWord} aria-label="Reveal Word">
+              <span aria-hidden="true">▣</span> Reveal Word
+            </button>
+            <button type="button" onClick={game.reset} aria-label="Reset">
+              <span aria-hidden="true">↻</span> Reset
+            </button>
           </div>
           <OnScreenKeyboard onLetter={game.enterLetter} onBackspace={game.backspace} />
         </div>

@@ -420,11 +420,17 @@ p {
   padding: clamp(14px, 2.4vw, 26px);
 }
 
+.puzzle-grid-scroll {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  max-width: 100%;
+}
+
 .puzzle-grid {
   display: grid;
   width: min(100%, 760px);
   min-width: min(100%, 320px);
-  aspect-ratio: 1;
   contain: layout paint;
   overflow: hidden;
   border: 5px solid var(--text);
@@ -514,6 +520,10 @@ p {
   grid-template-columns: repeat(4, minmax(0, 1fr));
   gap: 12px;
   width: 100%;
+}
+
+.toolbar-label-mobile {
+  display: none;
 }
 
 .toolbar button {
@@ -973,8 +983,17 @@ p {
 }
 
 @media (max-width: 680px) {
+  body {
+    background: linear-gradient(135deg, #fffdf2 0%, var(--bg) 56%, #eef8e8 100%);
+  }
+
+  body::before,
+  body::after {
+    display: none;
+  }
+
   .app-shell {
-    padding: calc(max(18px, env(safe-area-inset-top)) + 8px) 12px max(28px, env(safe-area-inset-bottom));
+    padding: calc(max(18px, env(safe-area-inset-top)) + 8px) 12px calc(132px + env(safe-area-inset-bottom));
   }
 
   .game-header,
@@ -984,8 +1003,8 @@ p {
   }
 
   .game-header {
-    gap: 16px;
-    padding: 16px;
+    gap: 12px;
+    padding: 14px;
   }
 
   .brand-cluster {
@@ -1003,8 +1022,73 @@ p {
   }
 
   .title-block h1 {
-    font-size: clamp(2.25rem, 11vw, 3.35rem);
+    overflow: visible;
+    font-size: clamp(2rem, 10vw, 3rem);
     line-height: 1;
+    overflow-wrap: anywhere;
+  }
+
+  .grid-card {
+    overflow: hidden;
+  }
+
+  .puzzle-grid-scroll {
+    justify-content: flex-start;
+    width: 100%;
+    max-width: 100%;
+    overflow-x: auto;
+    overflow-y: hidden;
+    overscroll-behavior-x: contain;
+    padding-bottom: 6px;
+    -webkit-overflow-scrolling: touch;
+    scrollbar-color: rgba(8, 116, 36, 0.35) transparent;
+    scrollbar-width: thin;
+  }
+
+  .puzzle-grid-scroll::-webkit-scrollbar {
+    height: 7px;
+  }
+
+  .puzzle-grid-scroll::-webkit-scrollbar-track {
+    background: transparent;
+  }
+
+  .puzzle-grid-scroll::-webkit-scrollbar-thumb {
+    border-radius: 999px;
+    background: rgba(8, 116, 36, 0.28);
+  }
+
+  .puzzle-grid {
+    width: max(100%, var(--mobile-grid-min-width));
+    min-width: var(--mobile-grid-min-width);
+    max-width: none;
+    margin: 0;
+    border-width: 3px;
+    gap: 1px;
+    border-radius: 12px;
+  }
+
+  .active-clue-panel {
+    position: sticky;
+    grid-template-columns: 1fr auto;
+    gap: 10px 12px;
+    padding: 12px;
+    top: calc(8px + env(safe-area-inset-top));
+    z-index: 5;
+    backdrop-filter: blur(14px);
+  }
+
+  .active-clue-meta {
+    width: fit-content;
+    min-height: 32px;
+    padding: 0 10px;
+    font-size: 0.72rem;
+  }
+
+  .active-clue-panel p {
+    grid-column: 1 / -1;
+    grid-row: 2;
+    font-size: 0.92rem;
   }
 }
 
@@ -1060,25 +1144,6 @@ p {
     padding: 8px;
   }
 
-  .active-clue-panel {
-    grid-template-columns: 1fr auto;
-    gap: 10px 12px;
-    padding: 12px;
-  }
-
-  .active-clue-meta {
-    width: fit-content;
-    min-height: 32px;
-    padding: 0 10px;
-    font-size: 0.72rem;
-  }
-
-  .active-clue-panel p {
-    grid-column: 1 / -1;
-    grid-row: 2;
-    font-size: 0.92rem;
-  }
-
   .active-clue-image-button,
   .active-clue-image-button img,
   .active-clue-panel img {
@@ -1094,14 +1159,6 @@ p {
   .image-lightbox img {
     max-height: calc(82vh - 100px);
     border-radius: 16px;
-  }
-
-  .puzzle-grid {
-    width: min(100%, calc(100vw - 24px));
-    min-width: 0;
-    border-width: 3px;
-    gap: 1px;
-    border-radius: 12px;
   }
 
   .cell {
@@ -1135,13 +1192,22 @@ p {
     line-height: 1.15;
   }
 
+  .toolbar-label-full {
+    display: none;
+  }
+
+  .toolbar-label-mobile {
+    display: inline;
+  }
+
   .keyboard {
     padding: 10px 8px;
     border-radius: 18px;
+    margin-bottom: 24px;
   }
 
   .keyboard-row {
-    gap: 3px;
+    gap: 4px;
     margin-bottom: 7px;
   }
 
@@ -1182,6 +1248,26 @@ p {
 
   .stat-grid {
     grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 420px) {
+  .game-header {
+    padding: 12px;
+  }
+
+  .brand-copy span {
+    display: none;
+  }
+
+  .streak-pill {
+    display: none;
+  }
+
+  .timer,
+  .stats-pill {
+    min-height: 40px;
+    padding: 0 12px;
   }
 }
 
