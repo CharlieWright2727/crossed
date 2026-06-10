@@ -25,9 +25,10 @@ export function useCrosswordGame(puzzle: Puzzle) {
   const [stats, setStats] = useState<LocalStats>(() => readStats());
 
   useEffect(() => {
+    const first = firstOpenCell(puzzle);
     setEntries(makeEmptyGrid(puzzle));
-    setSelected(firstOpenCell(puzzle));
-    setDirection("across");
+    setSelected(first);
+    setDirection(resolveDirectionForCell(puzzle, first, "across"));
     setRevealed(new Set());
     setIncorrect(new Set());
     setComplete(false);

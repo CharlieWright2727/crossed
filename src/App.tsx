@@ -56,6 +56,17 @@ function App() {
       {isArchive && <p className="archive-banner">No puzzle is available for today, so you are playing the latest archive puzzle.</p>}
       <section className="game-board">
         <div className="play-area">
+          {game.activeClue && (
+            <section className="active-clue-panel" aria-live="polite" aria-label="Selected clue">
+              <span className="active-clue-meta">
+                {game.direction} {game.activeClue.number}
+              </span>
+              <p>{game.activeClue.prompt.text}</p>
+              {game.activeClue.prompt.imageSrc && (
+                <img src={game.activeClue.prompt.imageSrc} alt={game.activeClue.prompt.imageAlt} loading="lazy" />
+              )}
+            </section>
+          )}
           <section className="grid-card" aria-label="Crossword puzzle">
             <PuzzleGrid
               puzzle={puzzle}

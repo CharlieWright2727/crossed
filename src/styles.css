@@ -326,12 +326,58 @@ p {
 .grid-card,
 .keyboard,
 .clue-card,
+.active-clue-panel,
 .archive,
 .modal {
   border: 1px solid rgba(223, 230, 216, 0.9);
   border-radius: 30px;
   background: rgba(255, 254, 250, 0.92);
   box-shadow: 0 20px 55px var(--shadow);
+}
+
+.active-clue-panel {
+  display: grid;
+  grid-template-columns: auto minmax(0, 1fr) auto;
+  align-items: center;
+  gap: 14px;
+  min-height: 68px;
+  padding: 14px 18px;
+  border-radius: 24px;
+  background: linear-gradient(145deg, rgba(232, 247, 232, 0.96), rgba(255, 254, 250, 0.96));
+}
+
+.active-clue-meta {
+  display: inline-flex;
+  align-items: center;
+  min-height: 36px;
+  padding: 0 12px;
+  border-radius: 999px;
+  background: var(--accent);
+  color: #fff;
+  font-size: 0.78rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  line-height: 1;
+  text-transform: uppercase;
+  white-space: nowrap;
+}
+
+.active-clue-panel p {
+  margin: 0;
+  color: var(--text);
+  font-size: clamp(0.98rem, 1.4vw, 1.08rem);
+  font-weight: 560;
+  line-height: 1.38;
+  overflow-wrap: anywhere;
+}
+
+.active-clue-panel img {
+  width: 54px;
+  height: 42px;
+  border: 1px solid var(--line);
+  border-radius: 12px;
+  background: var(--bg);
+  object-fit: cover;
 }
 
 .grid-card {
@@ -887,8 +933,33 @@ p {
   .grid-card,
   .keyboard,
   .clue-card,
+  .active-clue-panel,
   .archive {
     border-radius: 22px;
+  }
+
+  .active-clue-panel {
+    grid-template-columns: 1fr auto;
+    gap: 10px 12px;
+    padding: 12px;
+  }
+
+  .active-clue-meta {
+    width: fit-content;
+    min-height: 32px;
+    padding: 0 10px;
+    font-size: 0.72rem;
+  }
+
+  .active-clue-panel p {
+    grid-column: 1 / -1;
+    grid-row: 2;
+    font-size: 0.92rem;
+  }
+
+  .active-clue-panel img {
+    width: 46px;
+    height: 36px;
   }
 
   .puzzle-grid {
