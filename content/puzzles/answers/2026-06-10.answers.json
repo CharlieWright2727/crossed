@@ -2,20 +2,286 @@
   "id": "2026-06-10",
   "date": "2026-06-10",
   "cells": [
-    ["N", "B", "A"],
-    ["B", "O", "S"],
-    ["A", "S", "T"]
+    [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      "D",
+      null,
+      null,
+      "A",
+      null,
+      "D",
+      null
+    ],
+    [
+      null,
+      null,
+      null,
+      null,
+      "T",
+      null,
+      "H",
+      "E",
+      "L",
+      "P",
+      "E",
+      "R",
+      null
+    ],
+    [
+      null,
+      null,
+      null,
+      null,
+      "A",
+      null,
+      "O",
+      null,
+      null,
+      "R",
+      null,
+      "O",
+      null
+    ],
+    [
+      null,
+      "H",
+      "E",
+      "D",
+      "G",
+      "E",
+      null,
+      null,
+      null,
+      "O",
+      null,
+      "P",
+      null
+    ],
+    [
+      null,
+      null,
+      "L",
+      null,
+      null,
+      null,
+      "S",
+      "T",
+      "U",
+      "N",
+      "T",
+      null,
+      null
+    ],
+    [
+      "C",
+      "B",
+      "A",
+      null,
+      null,
+      null,
+      "P",
+      null,
+      "S",
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      "O",
+      null,
+      "M",
+      "I",
+      "D",
+      "R",
+      "A",
+      "N",
+      "G",
+      "E",
+      null,
+      null,
+      "L"
+    ],
+    [
+      "R",
+      null,
+      null,
+      "C",
+      null,
+      null,
+      "C",
+      null,
+      null,
+      null,
+      null,
+      null,
+      "O"
+    ],
+    [
+      "N",
+      null,
+      null,
+      "E",
+      null,
+      "H",
+      "I",
+      "N",
+      "K",
+      "I",
+      "E",
+      null,
+      "W"
+    ],
+    [
+      "E",
+      null,
+      "B",
+      null,
+      null,
+      null,
+      "N",
+      null,
+      null,
+      null,
+      null,
+      null,
+      "R"
+    ],
+    [
+      "R",
+      "A",
+      "P",
+      "M",
+      null,
+      null,
+      "G",
+      "R",
+      "A",
+      "V",
+      "I",
+      "T",
+      "Y"
+    ],
+    [
+      null,
+      null,
+      "M",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      "A",
+      null
+    ],
+    [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      "X",
+      null
+    ]
   ],
   "clues": {
     "across": [
-      { "number": 1, "answer": "NBA" },
-      { "number": 4, "answer": "BOS" },
-      { "number": 5, "answer": "AST" }
+      {
+        "number": 5,
+        "answer": "HELPER"
+      },
+      {
+        "number": 6,
+        "answer": "HEDGE"
+      },
+      {
+        "number": 8,
+        "answer": "STUNT"
+      },
+      {
+        "number": 10,
+        "answer": "CBA"
+      },
+      {
+        "number": 11,
+        "answer": "MIDRANGE"
+      },
+      {
+        "number": 14,
+        "answer": "HINKIE"
+      },
+      {
+        "number": 16,
+        "answer": "RAPM"
+      },
+      {
+        "number": 17,
+        "answer": "GRAVITY"
+      }
     ],
     "down": [
-      { "number": 1, "answer": "NBA" },
-      { "number": 2, "answer": "BOS" },
-      { "number": 3, "answer": "AST" }
+      {
+        "number": 1,
+        "answer": "DHO"
+      },
+      {
+        "number": 2,
+        "answer": "APRON"
+      },
+      {
+        "number": 3,
+        "answer": "DROP"
+      },
+      {
+        "number": 4,
+        "answer": "TAG"
+      },
+      {
+        "number": 7,
+        "answer": "ELAM"
+      },
+      {
+        "number": 8,
+        "answer": "SPACING"
+      },
+      {
+        "number": 9,
+        "answer": "USG"
+      },
+      {
+        "number": 10,
+        "answer": "CORNER"
+      },
+      {
+        "number": 12,
+        "answer": "ICE"
+      },
+      {
+        "number": 13,
+        "answer": "LOWRY"
+      },
+      {
+        "number": 15,
+        "answer": "BPM"
+      },
+      {
+        "number": 18,
+        "answer": "TAX"
+      }
     ]
   }
 }

@@ -1,59 +1,376 @@
 {
   "id": "2026-06-10",
   "date": "2026-06-10",
-  "title": "Opening Tip",
+  "title": "Margins of the Game",
   "author": "Crossed",
-  "difficulty": "easy",
-  "size": { "rows": 3, "cols": 3 },
+  "difficulty": "hard",
+  "size": {
+    "rows": 13,
+    "cols": 13
+  },
   "layout": [
-    [".", ".", "."],
-    [".", ".", "."],
-    [".", ".", "."]
+    [
+      "#",
+      "#",
+      "#",
+      "#",
+      "#",
+      "#",
+      ".",
+      "#",
+      "#",
+      ".",
+      "#",
+      ".",
+      "#"
+    ],
+    [
+      "#",
+      "#",
+      "#",
+      "#",
+      ".",
+      "#",
+      ".",
+      ".",
+      ".",
+      ".",
+      ".",
+      ".",
+      "#"
+    ],
+    [
+      "#",
+      "#",
+      "#",
+      "#",
+      ".",
+      "#",
+      ".",
+      "#",
+      "#",
+      ".",
+      "#",
+      ".",
+      "#"
+    ],
+    [
+      "#",
+      ".",
+      ".",
+      ".",
+      ".",
+      ".",
+      "#",
+      "#",
+      "#",
+      ".",
+      "#",
+      ".",
+      "#"
+    ],
+    [
+      "#",
+      "#",
+      ".",
+      "#",
+      "#",
+      "#",
+      ".",
+      ".",
+      ".",
+      ".",
+      ".",
+      "#",
+      "#"
+    ],
+    [
+      ".",
+      ".",
+      ".",
+      "#",
+      "#",
+      "#",
+      ".",
+      "#",
+      ".",
+      "#",
+      "#",
+      "#",
+      "#"
+    ],
+    [
+      ".",
+      "#",
+      ".",
+      ".",
+      ".",
+      ".",
+      ".",
+      ".",
+      ".",
+      ".",
+      "#",
+      "#",
+      "."
+    ],
+    [
+      ".",
+      "#",
+      "#",
+      ".",
+      "#",
+      "#",
+      ".",
+      "#",
+      "#",
+      "#",
+      "#",
+      "#",
+      "."
+    ],
+    [
+      ".",
+      "#",
+      "#",
+      ".",
+      "#",
+      ".",
+      ".",
+      ".",
+      ".",
+      ".",
+      ".",
+      "#",
+      "."
+    ],
+    [
+      ".",
+      "#",
+      ".",
+      "#",
+      "#",
+      "#",
+      ".",
+      "#",
+      "#",
+      "#",
+      "#",
+      "#",
+      "."
+    ],
+    [
+      ".",
+      ".",
+      ".",
+      ".",
+      "#",
+      "#",
+      ".",
+      ".",
+      ".",
+      ".",
+      ".",
+      ".",
+      "."
+    ],
+    [
+      "#",
+      "#",
+      ".",
+      "#",
+      "#",
+      "#",
+      "#",
+      "#",
+      "#",
+      "#",
+      "#",
+      ".",
+      "#"
+    ],
+    [
+      "#",
+      "#",
+      "#",
+      "#",
+      "#",
+      "#",
+      "#",
+      "#",
+      "#",
+      "#",
+      "#",
+      ".",
+      "#"
+    ]
   ],
   "clues": {
     "across": [
       {
-        "number": 1,
-        "prompt": {
-          "text": "League for the Finals and All-Star Weekend",
-          "imageSrc": "/clue-images/player-placeholder.svg",
-          "imageAlt": "Local basketball player placeholder illustration for an image clue",
-          "imageCredit": "Local placeholder artwork"
-        },
-        "row": 0,
-        "col": 0
-      },
-      {
-        "number": 4,
-        "prompt": { "text": "Scoreboard abbreviation for Boston" },
-        "row": 1,
-        "col": 0
-      },
-      {
         "number": 5,
-        "prompt": { "text": "Box-score shorthand for an assist" },
-        "row": 2,
+        "prompt": {
+          "text": "The help-side defender whose value often lives outside the box score."
+        },
+        "row": 1,
+        "col": 6
+      },
+      {
+        "number": 6,
+        "prompt": {
+          "text": "High pick-and-roll coverage that trades paint protection for ball pressure."
+        },
+        "row": 3,
+        "col": 1
+      },
+      {
+        "number": 8,
+        "prompt": {
+          "text": "A low-commitment dig at the ball: enough to disturb, not enough to rotate the house."
+        },
+        "row": 4,
+        "col": 6
+      },
+      {
+        "number": 10,
+        "prompt": {
+          "text": "The labor document behind max slots, exceptions, aprons, and every 'why can't they just sign him?' debate."
+        },
+        "row": 5,
         "col": 0
+      },
+      {
+        "number": 11,
+        "prompt": {
+          "text": "The shot zone analytics tried to kill, then elite creators kept resurrecting in May and June."
+        },
+        "row": 6,
+        "col": 2
+      },
+      {
+        "number": 14,
+        "prompt": {
+          "text": "The executive surname that became shorthand for asking whether losing can be an argument."
+        },
+        "row": 8,
+        "col": 5
+      },
+      {
+        "number": 16,
+        "prompt": {
+          "text": "Plus-minus model that tries to strip out lineup noise by regularization rather than vibes."
+        },
+        "row": 10,
+        "col": 0
+      },
+      {
+        "number": 17,
+        "prompt": {
+          "text": "The invisible force that bends defenses before a screen is even set."
+        },
+        "row": 10,
+        "col": 6
       }
     ],
     "down": [
       {
         "number": 1,
-        "prompt": { "text": "League where MVPs lift the Michael Jordan Trophy" },
+        "prompt": {
+          "text": "Chicago-style action: a handoff stitched into a screen, often weaponized for shooters."
+        },
         "row": 0,
-        "col": 0
+        "col": 6
       },
       {
         "number": 2,
-        "prompt": { "text": "Celtics city abbreviation" },
+        "prompt": {
+          "text": "Cap accounting ghost that can matter before a player is even re-signed."
+        },
         "row": 0,
-        "col": 1
+        "col": 9
       },
       {
         "number": 3,
-        "prompt": { "text": "Assist abbreviation on a stat sheet" },
+        "prompt": {
+          "text": "Conservative ball-screen coverage that says: protect the rim first, solve the jumper later."
+        },
         "row": 0,
+        "col": 11
+      },
+      {
+        "number": 4,
+        "prompt": {
+          "text": "The defender's brief ownership of a roller before the rotation is passed on."
+        },
+        "row": 1,
+        "col": 4
+      },
+      {
+        "number": 7,
+        "prompt": {
+          "text": "Endgame format that turns the clock off and asks whether basketball should finish on a make."
+        },
+        "row": 3,
         "col": 2
+      },
+      {
+        "number": 8,
+        "prompt": {
+          "text": "The modern offensive condition: five players arranged to make every help decision expensive."
+        },
+        "row": 4,
+        "col": 6
+      },
+      {
+        "number": 9,
+        "prompt": {
+          "text": "Possession share stat that can confuse responsibility with dominance."
+        },
+        "row": 4,
+        "col": 8
+      },
+      {
+        "number": 10,
+        "prompt": {
+          "text": "Weak-side geography: where a shooter waits while the ball argues with the paint."
+        },
+        "row": 5,
+        "col": 0
+      },
+      {
+        "number": 12,
+        "prompt": {
+          "text": "Ball-screen coverage call that can turn a drive into a sideline trap without saying 'trap'."
+        },
+        "row": 6,
+        "col": 3
+      },
+      {
+        "number": 13,
+        "prompt": {
+          "text": "Player shown in the image: the small guard whose impact often hid in charges, pace control, and late-clock decisions.",
+          "imageSrc": "/clue-images/lowry-placeholder.svg",
+          "imageAlt": "Illustrated placeholder portrait of a veteran basketball guard",
+          "imageCredit": "Local placeholder artwork"
+        },
+        "row": 6,
+        "col": 12
+      },
+      {
+        "number": 15,
+        "prompt": {
+          "text": "Box Plus/Minus: a public all-in-one stat whose confidence interval should humble hot takes."
+        },
+        "row": 9,
+        "col": 2
+      },
+      {
+        "number": 18,
+        "prompt": {
+          "text": "The bill for a roster that says the owner believes contention is already here."
+        },
+        "row": 10,
+        "col": 11
       }
     ]
   }
