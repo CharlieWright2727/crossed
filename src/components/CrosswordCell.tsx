@@ -26,7 +26,13 @@ export function CrosswordCell({ value, solution, number, row, col, selected, act
       aria-label={`Row ${row + 1}, column ${col + 1}, ${value || "blank"}`}
     >
       {number && <span className="cell-number">{number}</span>}
-      <span className="cell-letter">{value}</span>
+      {value && (
+        <svg className="cell-letter" viewBox="0 0 100 100" aria-hidden="true" focusable="false">
+          <text x="50" y="55" textAnchor="middle" dominantBaseline="middle">
+            {value}
+          </text>
+        </svg>
+      )}
     </button>
   );
 }

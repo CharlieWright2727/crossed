@@ -489,15 +489,23 @@ p {
 }
 
 .cell-letter {
+  position: absolute;
+  inset: 12%;
   display: block;
-  width: 100%;
-  max-width: 86%;
-  max-height: 86%;
-  overflow: hidden;
-  line-height: 0.92;
-  text-align: center;
-  transform: translateY(1px);
+  width: auto;
+  height: auto;
+  max-width: none;
+  max-height: none;
+  overflow: visible;
   pointer-events: none;
+}
+
+.cell-letter text {
+  fill: currentColor;
+  font-family: inherit;
+  font-size: 72px;
+  font-weight: 800;
+  line-height: 1;
 }
 
 .cell.revealed::after {
